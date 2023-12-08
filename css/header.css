@@ -1,0 +1,14 @@
+.header__button.button {
+    display: inline-block;
+    padding: 25px 55px;
+    background-color: var(--background-light-color);
+    color: var(--paragraph-text-dark-color);
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.header__button.button:hover {
+    text-decoration: none;
+    background-color: var(--background-light-color);;
+    filter: brightness(0.9); 
+}
