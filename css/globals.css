@@ -19,6 +19,7 @@
 
 a {
     color: var(--paragraph-text-color);
+    text-decoration: none;
 }
 
 .container {
