@@ -16,10 +16,6 @@
     color: var(--paragraph-text-color);
 }
 
-img {
-    display: block;
-    width: 100%;
-}
 
 a {
     color: var(--paragraph-text-color);
