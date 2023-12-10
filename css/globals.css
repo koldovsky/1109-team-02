@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -9,21 +13,25 @@
     --subtitle-text-color: #ffffff;
     --accent-text-light-color: #ffffff;
     --accent-text-dark-color: #ffc123;
-    --paragraph-text-light-color: #9d9d9d;
+    --text-light-color: #9d9d9d;
     --paragraph-text-dark-color: #111111;
     --background-dark-color: #000000;
     --background-light-color: #ffc123;
     scroll-behavior: smooth;
 }
 
-a {
-    color: var(--paragraph-text-color);
-    text-decoration: none;
-}
-
 .container {
     max-width: 1200px;
     margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+    color: var(--text-light-color);
 }
 
 header {

@@ -21,8 +21,20 @@
 }
 
 .header__menu a {
-    color: var(--paragraph-text-light-color);
-    text-decoration: none;
+    color: var(--text-light-color);
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.header__menu a:hover {
+    color: var(--accent-text-light-color);
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: underline;
 }
 
 .header__logo-container {
@@ -49,7 +61,10 @@
     padding: 25px 55px;
     background-color: var(--background-light-color);
     color: var(--paragraph-text-dark-color);
-    border-radius: 5px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    margin-top: 40px;
 }
 
 .header__button.button:hover {
@@ -64,6 +79,24 @@
 
 .header__social-link {
     margin: 0 7.5px;
+}
+
+.header__tagline{
+    font-family: "Shadows Into Light";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.header__title{
+    font-family: "Teko", sans-serif;
+    font-size: 62px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.header__description {
+    font-size: 19px;
+    margin-top: 40px;
 }
 
 @media (min-width: 990px) {
@@ -93,9 +126,21 @@
     }
 
     .header__content {
-        padding: 250px 0;
+        padding: 250px 15px;
         display: flex;
         justify-content: flex-end;
         flex-direction: column;
+    }
+
+    .header__tagline{
+        font-size: 28px;
+    }
+
+    .header__title{
+        font-size: 128px;
+    }
+    
+    .header__button.button {
+        max-width: 230px;
     }
 }
