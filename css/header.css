@@ -1,39 +1,47 @@
-.header {
-    background-color: var(--background-dark-color);
+.header__social-icons svg {
+    width: 32px;
+    height: 32px;
+    fill: var(--background-light-color);
+    fill-rule: evenodd;
 }
 
-.header__nav {
-    display: flex;
-    align-items: center;
-    padding: 40px 0;
-}
-
-.header__content {
-    text-align: right;
-    padding: 40px 0;
-    flex: 1;
+.header__social-icons a {
+    text-decoration: none;
 }
 
 .header__social-icons {
+    margin-top: 30px;
     display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .header__logo-image {
     width: 180px;
 }
 
-.header__menu {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
+.header__menu a {
     color: var(--paragraph-text-light-color);
-    align-items: center;
-    justify-content: center;
-    flex: 1;
+    text-decoration: none;
 }
 
-.header__social-icons {
+.header__logo-container {
+    padding: 40px 0;
+}
+
+.header__nav {
+    padding: 0 24px;
+}
+
+.header__menu {
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__video {
+    color: var(--subtitle-text-color);
 }
 
 .header__button.button {
@@ -50,33 +58,44 @@
     filter: brightness(0.9);
 }
 
-.header__tagline {
-    color: var(--subtitle-text-color);
+.header__content {
+    padding: 130px 0 110px 0;
 }
 
-.header__title {
-    color: var(--subtitle-text-color);
+.header__social-link {
+    margin: 0 7.5px;
 }
 
-.header__description {
-    color: var(--paragraph-text-light-color);
-}
-
-@media (min-width: 500px) {
-
+@media (min-width: 990px) {
     .header__nav {
         display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
     }
 
     .header__menu {
+        display: flex;
         flex-direction: row;
-    }
-
-    .header__menu.menu {
-        max-width: 454px;
+        justify-content: center;
     }
 
     .header__menu.menu li {
         margin: 10px 15px;
+    }
+
+    .header__video {
+        display: flex;
+    }
+
+    .header__social-icons {
+        margin-top: 0;
+    }
+
+    .header__content {
+        padding: 250px 0;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
     }
 }
