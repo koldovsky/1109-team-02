@@ -1,0 +1,25 @@
+.testimonials__header {
+    text-align: center;
+}
+
+.testimonials__subtitle {
+    font-family: "Teko", sans-serif;
+    color: var(--subtitle-text-color);
+    font-size: 2.5rem;
+}
+.testimonials__review-photo {
+     
+}
+.testimonials__review-name {
+    font-family: "Teko", sans-serif;
+    font-size: 1.6rem;
+    color: var(--subtitle-text-color);
+}
+.testimonials__review-text {
+    font-family: 'Open Sans', sans-serif;
+
+}
+.testimonials__review-date {
+    font-family: 'Open Sans', sans-serif;
+
+}

@@ -28,6 +28,11 @@
 h2{
     font-family: 'Shadows Into Light', cursive;
     color: var(--background-light-color);
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+
 }
 
 a {
