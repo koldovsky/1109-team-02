@@ -25,6 +25,11 @@
     margin: auto;
 }
 
+h2{
+    font-family: 'Shadows Into Light', cursive;
+    color: var(--background-light-color);
+}
+
 a {
     text-decoration: none;
 }
@@ -44,4 +49,7 @@ header {
 main {
     display: flex;
     flex-direction: column;
+}
+body {
+    background-image: url(../img/bg.png);
 }
