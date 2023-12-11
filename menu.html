@@ -3,9 +3,11 @@
 <!--Yulia Hurska-->
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/menu.css">
-    <title>menu</title>
+    <link rel="shortcut icon" href="img/header/title-icon.png" type="image/x-icon">
+    <title>Menu Page | Beer Pub</title>
 </head>
 
 <body>
@@ -13,10 +15,16 @@
         <nav data-include="header-nav.partial.html"></nav>
     </header>
     <main>
+        <div class="menu__header">
+            <p class="menu__header-title">Menu</p>
+            <div class="menu__header-background"><img src="img/menu/bg_menu.webp" alt="background for menu text title"
+                    width="1200px">
+            </div>
+        </div>
         <section data-include="menu.section-bar-menu.partial.html"></section>
         <section data-include="menu.section-food-menu.partial.html"></section>
     </main>
-    <footer clas="footer">
+    <footer class="footer">
         <nav data-include="footer-nav.partial.html"></nav>
     </footer>
     <script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
