@@ -1,0 +1,42 @@
+.offers__title {
+    font-family: "Shadows Into Light",sans-serif;
+    color: var(--title-text-color);
+    font-size:14px;
+}
+.offers__description {
+    font-size:40px;
+    font-family: "Teko", sans-serif;
+    color: var(--subtitle-text-color);
+}
+.yellow {
+    color: var(--title-text-color);
+}
+.offers__additional-description {
+    color: var(--subtitle-light-color);
+    font-size:19px;
+    font-family: "Open Sans", sans-serif;
+}
+.button.offers__learn-more {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    text-decoration: none;
+    background-color: var(--title-text-color);
+    color: var(--paragraph-text-dark-color);
+    border: 1px; 
+}
+.offers__item .offers__item-title{
+    font-size: 32px;
+    font-family: "Teko", sans-serif;
+    color: var(--subtitle-text-color);
+}
+.offers__item .offers__item--description{
+    font-size: 17px;
+    font-family: "Open Sans", sans-serif;
+    color: var(--subtitle-light-color);
+}
+.offers__item-image{
+    height:100px;
+}
