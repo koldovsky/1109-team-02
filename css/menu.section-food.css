@@ -11,8 +11,10 @@
 }
 
 .food__info-description {
+    font-size: 1.18rem;
     font-weight: 500;
     font-family: "Open Sans", sans-serif;
+    color: var(--subtitle-light-color);
     text-align: center;
     
 }   
