@@ -19,6 +19,7 @@
     --background-dark-color: #000000;
     --background-light-color: #ffc123;
     --background-transparent-color: #0000009c;
+    --hover-button-color:#edb31f;
     scroll-behavior: smooth;
 }
 
