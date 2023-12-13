@@ -9,6 +9,7 @@ h3 {
 .food__info-description {
     font-weight: 500;
     font-family: "Open Sans", sans-serif;
+
 }   
 h4 {
    font-family: "Teko", sans-serif;
@@ -23,4 +24,16 @@ h5 {
     color: var(--subtitle-text-color);
     font-size: 1.6rem;
     font-weight: 400;
+    color:
+}
+.card__info-price {
+    font-family: "Teko", sans-serif;
+   font-size: 1.6rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+}
+.card__info-description {
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
 }
