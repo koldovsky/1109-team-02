@@ -57,9 +57,3 @@
     background-color: var(--background-transparent-color);
     margin-top: 50px;
 }
-
-@media (min-width: 768px) {
-
-    .testimonials__review {
-        display: grid;
-        grid-template-columns: 1fr 1fr;

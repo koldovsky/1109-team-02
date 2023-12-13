@@ -1,0 +1,11 @@
+@import url(globals.css);
+
+img {
+    display: block;
+    width: 100%;
+}
+
+h3 {
+    font-family: "Teko", sans-serif;
+    color: var(--subtitle-text-color);
+}
