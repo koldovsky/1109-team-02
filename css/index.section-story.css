@@ -1,3 +1,5 @@
 .story__container {
     text-align: center;
+    height: auto;
+    margin: 0 auto;
 }
