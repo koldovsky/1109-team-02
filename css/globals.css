@@ -59,3 +59,7 @@ main {
 body {
     background-image: url(../img/bg.png);
 }
+img {
+    width: 100%;
+    
+}
