@@ -4,7 +4,7 @@
 
 .special-offers {
   background-image: linear-gradient(black, black),
-    url("/img/price/fridaymenu.png");
+    url("../img/price/fridaymenu.png");
   background-size: cover;
   background-blend-mode: saturation;
   background-attachment: fixed !important;
