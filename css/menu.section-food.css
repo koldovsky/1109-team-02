@@ -4,6 +4,25 @@
 .food__container {
   padding: 0 24px;
 }
+.card__container {
+  width: 328px;
+  padding: 0 20px;
+}
+
+.card__info {
+  padding: 7.5px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.card__info-container {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.card__info-conteiner {
+  display: flex;
+}
 
 .food__info-tittle {
   text-align: center;
@@ -19,7 +38,7 @@
 }
 
 .food__info-description {
-  font-size: 1.625rem;
+  font-size: 1.1875rem;
   font-weight: 500;
   font-family: "Open Sans", sans-serif;
   color: var(--subtitle-light-color);
