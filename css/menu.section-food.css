@@ -1,0 +1,47 @@
+.food__info-tittle {
+    text-align: center;
+}
+.food__info-heder {
+    font-family: "Teko", sans-serif;
+    color: var(--subtitle-text-color);
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.food__info-description {
+    font-size: 1.18rem;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
+    color: var(--subtitle-light-color);
+    text-align: center;
+    
+}   
+h4.card__name {
+   font-family: "Teko", sans-serif;
+   font-size: 1.6rem;
+    font-weight: 400;
+    text-transform: uppercase;
+   color: var(--title-text-color);
+}
+
+h5.card__info-name  {
+    font-family: "Teko", sans-serif;
+    color: var(--subtitle-text-color);
+    font-size: 1.6rem;
+    font-weight: 400;
+    color:
+}
+
+.card__info-price {
+    font-family: "Teko", sans-serif;
+   font-size: 1.6rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+}
+.card__info-description {
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+}

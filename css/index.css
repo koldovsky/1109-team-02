@@ -1,4 +1,8 @@
 @import url(globals.css);
 @import url(header.css);
+@import url(index.section-testimonial.css);
 @import url(index.section-bottle.css);
+@import url(index.section-what-we-offer.css);
+@import url(index.section-price.css);
+@import url(index.section-story.css);
 @import url(index.section-friday-deal.css);

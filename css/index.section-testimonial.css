@@ -1,0 +1,59 @@
+.testimonials__conteiner {
+
+    padding: 0px 15px;
+}
+
+.testimonials__header {
+    text-align: center;
+}
+
+.testimonials__subtitle {
+    font-family: "Teko", sans-serif;
+    color: var(--subtitle-text-color);
+    font-size: 2.5rem;
+}
+
+.testimonials__text {
+    font-weight: 500px;
+    font-size: 1.18rem;
+    color: var(--subtitle-light-color)
+}
+
+.testimonials__review-photo {
+    border-radius: 50%;
+    width: 70px;
+    position: relative;
+
+}
+
+.testimonials__review-name {
+    font-family: "Teko", sans-serif;
+    font-size: 1.6rem;
+    color: var(--subtitle-text-color);
+    text-align: center;
+}
+
+.testimonials__review-text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400px;
+    font-size: 1.06rem;
+    color: var(--text-light-color);
+    text-align: center;
+    padding: 0px 29px;
+
+}
+
+.testimonials__review-date {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: var(--title-text-color);
+    text-align: center;
+
+}
+
+.testimonials__review {
+    background-color: var(--background-transparent-color);
+    margin-top: 50px;
+}

@@ -1,13 +1,6 @@
 @import url(globals.css);
+@import url(header.css);
+@import url(menu.section-bar.css);
+@import url(menu.section-food.css);
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Teko:wght@400;600&display=swap');
-img {
-    display: block;
-    width: 100%;
-}
-.title {
-    font-family: 'Teko', sans-serif;
-}
-.bar__title {
-    font-family: 'Shadows Into Light', cursive;
 
-}

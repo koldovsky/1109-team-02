@@ -1,0 +1,56 @@
+.container.special-offers__container {
+  display: flex;
+}
+
+.special-offers {
+  background-image: linear-gradient(black, black),
+    url("../img/price/fridaymenu.png");
+  background-size: cover;
+  background-blend-mode: saturation;
+  background-attachment: fixed !important;
+  scroll-behavior: smooth;
+}
+
+.special-offers__banner {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.special-offers__image {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.special-offers__images {
+  width: 50px;
+  height: 50px;
+}
+
+.special-offers__menu {
+  display: block;
+  opacity: 1;
+  justify-content: center;
+  flex-direction: column;
+  background: rgba(17, 17, 17, 0.76);
+  font-weight: 400px;
+  height: 555px;
+}
+
+.special-offers__title,
+.special-offers__info {
+  text-align: center;
+}
+
+.special-offers__images {
+  border-radius: 50%;
+}
+
+.special-offers__beer-snacks {
+  box-sizing: border-box;
+  font-size: 17px;
+  font-weight: 400px;
+  text-align: left;
+}

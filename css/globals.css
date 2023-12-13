@@ -14,9 +14,12 @@
     --accent-text-light-color: #ffffff;
     --accent-text-dark-color: #ffc123;
     --text-light-color: #9d9d9d;
+    --subtitle-light-color: #cccccc;
     --paragraph-text-dark-color: #111111;
     --background-dark-color: #000000;
     --background-light-color: #ffc123;
+    --background-transparent-color: #0000009c;
+    --hover-button-color:#edb31f;
     --discount-color: #444343;
     scroll-behavior: smooth;
 }
@@ -24,6 +27,13 @@
 .container {
     max-width: 1200px;
     margin: auto;
+}
+
+h2 {
+    font-family: 'Shadows Into Light', cursive;
+    color: var(--background-light-color);
+    font-size: inherit;
+    font-weight: inherit;
 }
 
 a {
@@ -45,4 +55,8 @@ header {
 main {
     display: flex;
     flex-direction: column;
+}
+
+body {
+    background-image: url(../img/bg.png);
 }
