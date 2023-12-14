@@ -1,0 +1,49 @@
+.friday-deal {
+    background-image: url(../img/black-friday-background.png);
+    max-width: 100%;
+    background-size: cover;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    object-fit: contain;
+}
+
+.friday-deal__discount {
+    font-size: 14px;
+    color: var(--discount-color);
+    font-family: "Shadows Into Light", undefined;
+    align-items: center;
+}
+
+.friday-deal__title {
+    font-size: 62px;
+    color: var(--paragraph-text-dark-color);
+    font-family: "Teko", sans-serif;
+    align-items: center;
+}
+
+.friday-deal__description {
+    font-size: 19px;
+    color: var(--discount-color);
+    font-family: "Open Sans", sans-serif;
+    align-items: center;
+}
+
+.friday-deal__link {
+    font-size: 12px;
+    font-weight: bold;
+    color: var(--accent-text-light-color);
+    font-family: "Open Sans", sans-serif;
+    display: inline-block;
+    padding: 20px 40px;   
+    background-color: var(--paragraph-text-dark-color);
+    text-decoration: none;
+    align-items: center;
+}
+
+.friday-deal__link:hover {
+    background-color:  gray;
+}

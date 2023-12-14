@@ -1,22 +1,41 @@
 .bar__menu {
-  padding: 0px 24px;
+  padding: 90px 0 30px 0;
 }
-after .bar__info-title {
-  text-align: center;
+.bar__container {
+  padding: 0 24px;
 }
 
+.bar__cards {
+  margin-top: 45px;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.bar__card {
+  padding: 0 20px;
+}
+
+.card__info-container {
+  padding: 7.5px 0;
+}
+
+.card__info {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card__info-line {
+  display: flex;
+  background-color: var(--subtitle-light-color);
+  flex-grow: 1;
+  height: 0.5px;
+}
+.bar__info-title {
+  text-align: center;
+  font-size: 0.875rem;
+}
 .bar__info-header {
-  font-family: "Teko", sans-serif;
-  color: var(--subtitle-text-color);
-  font-size: 2.5rem;
-  font-weight: 400;
-  text-transform: uppercase;
-  text-align: center;
-}
-.bar__info-tittle {
-  text-align: center;
-}
-.bar__info-heder {
   font-family: "Teko", sans-serif;
   color: var(--subtitle-text-color);
   font-size: 2.5rem;
@@ -26,37 +45,108 @@ after .bar__info-title {
 }
 
 .bar__info-description {
-  font-size: 1.18rem;
+  font-size: 1.1875rem;
   font-weight: 500;
   font-family: "Open Sans", sans-serif;
   color: var(--subtitle-light-color);
   text-align: center;
+  margin-top: 25px;
 }
-h4.card__name {
+.bar__cards .card__name {
+  margin-bottom: 20px;
   font-family: "Teko", sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.625rem;
   font-weight: 400;
   text-transform: uppercase;
   color: var(--title-text-color);
 }
 
-h5.card__info-name {
+.bar__cards .card__info-name {
   font-family: "Teko", sans-serif;
   color: var(--subtitle-text-color);
-  font-size: 1.6rem;
+  font-size: 1.625rem;
   font-weight: 400;
+  color: var(--subtitle-text-color);
+  display: flex;
 }
 
-.card__info-price {
+.bar__cards .card__info-price {
   font-family: "Teko", sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.625rem;
   font-weight: 400;
   text-transform: uppercase;
   color: var(--title-text-color);
+  display: flex;
 }
 .card__info-description {
   font-weight: 400;
   font-family: "Open Sans", sans-serif;
-  font-size: 1.06rem;
+  font-size: 1.0625rem;
   color: var(--text-light-color);
+}
+
+@media (min-width: 768px) {
+  .bar__cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .bar__menu {
+    padding: 105px 0 30px 0;
+  }
+  .bar__container {
+    padding: 0 36px;
+  }
+  .bar__info-title {
+    font-size: 1.3125rem;
+  }
+  .bar__info-header {
+    font-size: 3.1875rem;
+    font-weight: 400;
+  }
+
+  .bar__card .card__name {
+    font-size: 2rem;
+    font-weight: 400;
+  }
+
+  .bar__cards .card__info-name {
+    font-size: 2rem;
+    font-weight: 400;
+  }
+
+  .bar__cards .card__info-price {
+    font-size: 2rem;
+    font-weight: 400;
+  }
+}
+
+@media (min-width: 992px) {
+  .bar__cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .bar__menu {
+    padding: 120px 0 30px 0;
+  }
+  .bar__container {
+    padding: 0 40px;
+  }
+  .bar__info-title {
+    font-size: 1.75rem;
+  }
+  .bar__info-header {
+    font-size: 3.875rem;
+  }
+
+  .bar__card .card__name {
+    font-size: 2.375rem;
+  }
+
+  .bar__cards .card__info-name {
+    font-size: 2.375rem;
+  }
+
+  .bar__cards .card__info-price {
+    font-size: 2.375rem;
+  }
 }
