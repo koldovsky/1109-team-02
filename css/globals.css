@@ -53,18 +53,6 @@ p {
     color: var(--text-light-color);
 }
 
-header {
-    background-color: var(--background-dark-color);
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
-main {
-    display: flex;
-    flex-direction: column;
-}
-
 body {
     background-image: url(../img/bg.png);
 }
