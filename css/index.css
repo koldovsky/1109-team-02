@@ -1,5 +1,6 @@
 @import url(globals.css);
 @import url(header.css);
+@import url(index.section-menu.partial.css);
 @import url(index.section-testimonial.css);
 @import url(index.section-bottle.css);
 @import url(index.section-what-we-offer.css);
