@@ -1,36 +1,36 @@
 .bar__menu {
-  padding: 30px 0 90px 0;
-  text-align: center;
+  padding: 90px 0 30px 0;
 }
-.bar__conteiner {
+.bar__container {
   padding: 0 24px;
 }
+
 .bar__cards {
-  display: flex;
+  margin-top: 45px;
   display: grid;
-  flex-direction: row;
+  grid-template-columns: 1fr;
 }
-.bar__menu .card__container {
-  width:100%;
+
+.bar__card {
   padding: 0 20px;
+}
+
+.card__info-container {
+  padding: 7.5px 0;
 }
 
 .card__info {
   width: 100%;
-  padding: 7.5px 0;
   display: flex;
   flex-wrap: wrap;
-}
-.card__info-container {
-  display: flex;
   justify-content: space-between;
-  flex: 1;
 }
-
-.card__info-conteiner {
+.card__info-line {
   display: flex;
+  background-color: var(--subtitle-light-color);
+  flex-grow: 1;
+  height: 0.5px;
 }
-
 .bar__info-title {
   text-align: center;
   font-size: 0.875rem;
@@ -45,14 +45,15 @@
 }
 
 .bar__info-description {
-  display: flex;
   font-size: 1.1875rem;
   font-weight: 500;
   font-family: "Open Sans", sans-serif;
   color: var(--subtitle-light-color);
   text-align: center;
+  margin-top: 25px;
 }
 .bar__cards .card__name {
+  margin-bottom: 20px;
   font-family: "Teko", sans-serif;
   font-size: 1.625rem;
   font-weight: 400;
@@ -66,6 +67,7 @@
   font-size: 1.625rem;
   font-weight: 400;
   color: var(--subtitle-text-color);
+  display: flex;
 }
 
 .bar__cards .card__info-price {
@@ -74,6 +76,7 @@
   font-weight: 400;
   text-transform: uppercase;
   color: var(--title-text-color);
+  display: flex;
 }
 .card__info-description {
   font-weight: 400;
@@ -88,15 +91,15 @@
     grid-template-columns: 1fr 1fr;
   }
   .bar__menu {
-    padding: 30px 0 105px 0;
+    padding: 105px 0 30px 0;
   }
   .bar__container {
     padding: 0 36px;
   }
-  .bar__info-tittle {
+  .bar__info-title {
     font-size: 1.3125rem;
   }
-  .bar__info-heder {
+  .bar__info-header {
     font-size: 3.1875rem;
     font-weight: 400;
   }
@@ -118,21 +121,20 @@
 }
 
 @media (min-width: 992px) {
-
   .bar__cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
   .bar__menu {
-    padding: 30px 0 120px 0;
+    padding: 120px 0 30px 0;
   }
   .bar__container {
     padding: 0 40px;
   }
-  .bar__info-tittle {
+  .bar__info-title {
     font-size: 1.75rem;
   }
-  .bar__info-heder {
+  .bar__info-header {
     font-size: 3.875rem;
   }
 
