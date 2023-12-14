@@ -32,7 +32,6 @@
 .special-offers__menu {
   display: block;
   opacity: 1;
-  justify-content: center;
   flex-direction: column;
   background: rgba(17, 17, 17, 0.76);
   justify-content: center;
@@ -49,7 +48,7 @@
 .special-offers__beer-snacks {
   box-sizing: border-box;
   font-size: 17px;
-  font-weight: 400px;
+  font-weight: 400;
   justify-content: space-between;
 }
 
@@ -58,7 +57,7 @@
   display: flex;
 }
 
-.diveder {
+.divider {
   flex: 1;
   border-bottom: 1px dotted white;
 }
