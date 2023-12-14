@@ -1,11 +1,13 @@
 .friday-deal {
     background-image: url(../img/black-friday-background.png);
+    max-width: 100%;
     background-size: cover;
     min-height: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    gap: 10px;
     object-fit: contain;
 }
 

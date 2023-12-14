@@ -24,9 +24,18 @@
     scroll-behavior: smooth;
 }
 
+img {
+    display: block;
+    width: 100%;
+}
+
 .container {
     max-width: 1200px;
     margin: auto;
+}
+
+body {
+    background-image: url(../img/bg.png);
 }
 
 h2 {
@@ -43,18 +52,6 @@ a {
 p {
     font-family: "Open Sans", sans-serif;
     color: var(--text-light-color);
-}
-
-header {
-    background-color: var(--background-dark-color);
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
-main {
-    display: flex;
-    flex-direction: column;
 }
 
 body {

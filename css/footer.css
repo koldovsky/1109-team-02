@@ -1,0 +1,17 @@
+.footer__logo-image {
+    width: 180px;
+}
+
+.footer__logo-container {
+    padding: 40px 0;
+}
+
+.footer__social-icons svg {
+    width: 32px;
+    height: 32px;
+    fill: var(--background-light-color);
+    fill-rule: evenodd;
+}
+.footer__social-icons a {
+    text-decoration: none;
+}
