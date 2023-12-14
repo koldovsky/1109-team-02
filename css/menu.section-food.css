@@ -1,39 +1,31 @@
-/*.food__menu {
+.food__menu {
   padding: 30px 0 90px 0;
 }
 .food__container {
   padding: 0 24px;
 }
 .food__cards {
-  display: flex;
-  flex-direction: row;
+  margin-top: 45px;
+  display: grid;
+  grid-template-columns: 1fr;
 }
-.card__container {
-  
-  width: 328px;
+.food__card {
   padding: 0 20px;
 }
-.card__info-line {
-  background-color: var(--subtitle-light-color);
-  display: flex;
-  height: 0.5px;
-  flex-grow:1;
-}
-
-.card__info {
+.card__info-container {
   padding: 7.5px 0;
+}
+.card__info {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
-}
-.card__info-container {
-  display: flex;
   justify-content: space-between;
-  flex: 1;
 }
-
-.card__info-conteiner {
-align-items: flex-end;
+.card__info-line {
   display: flex;
+  background-color: var(--subtitle-light-color);
+  flex-grow: 1;
+  height: 0.5px;
 }
 
 .food__info-title {
@@ -54,10 +46,11 @@ align-items: flex-end;
   font-weight: 500;
   font-family: "Open Sans", sans-serif;
   color: var(--subtitle-light-color);
-  text-align: left;
-  
+  text-align: center;
+  margin-top: 25px;
 }
 .food__cards .card__name {
+  margin-bottom: 20px;
   font-family: "Teko", sans-serif;
   font-size: 1.625rem;
   font-weight: 400;
@@ -71,6 +64,7 @@ align-items: flex-end;
   font-size: 1.625rem;
   font-weight: 400;
   color: var(--subtitle-text-color);
+  display: flex;
 }
 
 .food__cards .card__info-price {
@@ -79,6 +73,7 @@ align-items: flex-end;
   font-weight: 400;
   text-transform: uppercase;
   color: var(--title-text-color);
+  display: flex;
 }
 .card__info-description {
   font-weight: 400;
@@ -88,16 +83,20 @@ align-items: flex-end;
 }
 
 @media (min-width: 768px) {
-  .food__menu {
-    padding: 30px 0 105px 0;
+  .food__cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .bar__menu {
+    padding: 105px 0 30px 0;
   }
   .food__container {
     padding: 0 36px;
   }
-  .food__info-tittle {
+  .food__info-title {
     font-size: 1.3125rem;
   }
-  .food__info-heder {
+  .food__info-header {
     font-size: 3.1875rem;
     font-weight: 400;
   }
@@ -119,16 +118,20 @@ align-items: flex-end;
 }
 
 @media (min-width: 992px) {
+  .food__cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
   .food__menu {
-    padding: 30px 0 120px 0;
+    padding: 120px 0 30px 0;
   }
   .food__container {
     padding: 0 40px;
   }
-  .food__info-tittle {
+  .food__info-title {
     font-size: 1.75rem;
   }
-  .food__info-heder {
+  .food__info-header {
     font-size: 3.875rem;
   }
 
@@ -143,4 +146,4 @@ align-items: flex-end;
   .food__cards .card__info-price {
     font-size: 2.375rem;
   }
-}*/
+}
