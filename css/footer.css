@@ -1,11 +1,9 @@
 .footer__logo-image {
     width: 180px;
 }
-
 .footer__logo-container {
     padding: 40px 0;
 }
-
 .footer__social-icons svg {
     width: 32px;
     height: 32px;
@@ -15,3 +13,16 @@
 .footer__social-icons a {
     text-decoration: none;
 }
+.footer__text svg path{
+    width: 32px;
+    height: 32px;
+    fill: var(--title-text-color);
+    fill-rule: evenodd;  
+}
+.footer__text svg polygon {
+    width: 32px;
+    height: 32px;
+    fill: var(--title-text-color);
+    fill-rule: evenodd;
+}
+

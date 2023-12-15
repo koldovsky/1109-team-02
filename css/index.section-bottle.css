@@ -1,4 +1,47 @@
 
-.bottle__container {
+.bottle__title{
     text-align: center;
+  font-size: 0.875rem;
+}
+.bottle__tagline{
+    font-family: "Teko", sans-serif;
+  color: var(--subtitle-text-color);
+  font-size: 2.5rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+}
+.bottle__subtitle {
+    font-size: 1.1875rem;
+  font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+  color: var(--subtitle-light-color);
+  text-align: center;
+  margin-top: 25px;
+}
+section.bottles {
+    padding: 90px 0 65px 0;
+}
+.bottles__container {
+    align-items: center;
+    padding: 0 24px;
+}
+.carousel-caption {
+  position: relative;
+  flex-direction: column;
+  right: 0%;
+  left: 0%;
+  text-align: left;
+
+}
+.carousel-img {
+  margin: auto;
+  width: 50%;
+}
+@media (max-width: 768px) {
+  .carousel-caption {
+    display: flex !important;
+    background: none;
+    padding: 47px 27px;
+  }
 }
