@@ -52,7 +52,3 @@ p {
     font-family: "Open Sans", sans-serif;
     color: var(--text-light-color);
 }
-
-body {
-    background-image: url(../img/bg.png);
-}
