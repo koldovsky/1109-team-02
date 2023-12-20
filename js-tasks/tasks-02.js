@@ -1,7 +1,6 @@
 // Convert a string to an array https://www.codewars.com/kata/convert-a-string-to-an-array/train/javascript
 function stringToArray(string) {
-    let arr = string.split(" ");
-    return arr;
+    return string.split(" ");
 }
 
 // DNA to RNA Conversion https://www.codewars.com/kata/dna-to-rna-conversion/train/javascript
