@@ -18,12 +18,14 @@ function min(arr, toReturn) {
 // Поглиблені задачки
 // A wolf in sheep's clothing https://www.codewars.com/kata/a-wolf-in-sheeps-clothing/train/javascript
 function warnTheSheep(queue) {
-    queue.reverse();
-    return queue[0] == "wolf"
-        ? "Pls go away and stop eating my sheep"
-        : "Oi! Sheep number " +
-        queue.indexOf("wolf") +
-        "! You are about to be eaten by a wolf!";
+  let result = queue.length - queue.indexOf("wolf") - 1;
+  if (queue.indexOf("wolf") === queue.length - 1) {
+    return "Pls go away and stop eating my sheep";
+  } else {
+    return (
+      "Oi! Sheep number " + result + "! You are about to be eaten by a wolf!"
+    );
+  }
 }
 
 // Beginner - Lost Without a Map https://www.codewars.com/kata/beginner-lost-without-a-map
