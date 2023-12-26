@@ -1,25 +1,22 @@
 .friday-deal {
     background-image: url(../img/black-friday-background.png);
-    max-width: 100%;
+    max-width: 1120px
+    max-height: 530px;
+    margin: 0 auto;
     background-size: cover;
-    min-height: 500px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 10px;
     object-fit: contain;
+    text-align: center;
 }
 
 .friday-deal__discount {
-    font-size: 14px;
+    font-size: 28px;
     color: var(--discount-color);
     font-family: "Shadows Into Light", undefined;
     align-items: center;
 }
 
 .friday-deal__title {
-    font-size: 62px;
+    font-size: 128px;
     color: var(--paragraph-text-dark-color);
     font-family: "Teko", sans-serif;
     align-items: center;
@@ -47,3 +44,74 @@
 .friday-deal__link:hover {
     background-color:  gray;
 }
+
+@media(min-width: 320px) {
+    .friday-deal {
+        margin: 65px 24px 90px;
+        padding: 51px 47px 51px;
+    }
+
+    .friday-deal__discount {
+        font-size: 14px;
+    }
+
+    .friday-deal__title {
+        font-size: 62px;
+    }
+
+    .friday-deal__description {
+        font-size: 19px;
+    }
+
+    .friday-deal__link {
+        font-size: 12px;
+    }
+}
+
+@media(min-width: 767px) {
+    .friday-deal {
+        margin: 65px 24px 90px;
+        padding: 51px 47px 51px;
+        }
+
+    .friday-deal__discount {
+        font-size: 14px;
+    }
+
+    .friday-deal__title {
+        font-size: 62px;
+    }
+
+    .friday-deal__description {
+        font-size: 19px;
+    }
+
+    .friday-deal__link {
+        font-size: 12px;
+    }
+}
+
+@media(min-width: 1200px) {
+    .friday-deal {
+        margin: 65px 24px 130px;
+        padding: 90px 80px 90px;
+        }
+
+    .friday-deal__discount {
+        font-size: 28px;
+    }
+
+    .friday-deal__title {
+        font-size: 128px;
+    }
+
+    .friday-deal__description {
+        font-size: 19px;
+    }
+
+    .friday-deal__link {
+        font-size: 12px;
+    }
+}
+
+

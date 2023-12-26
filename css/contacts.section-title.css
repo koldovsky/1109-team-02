@@ -1,0 +1,50 @@
+.contacts {
+    background-image: url(../img/black-friday-background.png);
+    width: 100%;
+    max-height: 132px;
+    margin: 0 auto;
+    background-size: cover;
+    object-fit: contain;
+    text-align: center;
+    padding: 40px 0px 30px;
+}
+
+.contacts__title {
+    font-size: 62px;
+    color: var(--paragraph-text-dark-color);
+    font-family: "Teko", sans-serif;
+    align-items: center;
+}
+
+@media(min-width: 320px) {
+   .contacts {
+        max-height: 110px;
+        padding: 40px 0px 30px;
+    }
+
+    .contacts__title {
+        font-size: 40px;
+    }
+}
+
+@media(min-width: 767px) {
+    .contacts {
+        max-height: 121px;
+        padding: 40px 0px 30px;
+    }
+
+    .contacts__title {
+        font-size: 51px;
+    }
+}
+
+@media(min-width: 1200px) {
+    .contacts {
+        max-height: 132px;
+        padding: 40px 0px 30px;
+    }
+
+    .contacts__title {
+        font-size: 62px;
+    }
+}
