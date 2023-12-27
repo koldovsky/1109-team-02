@@ -20,6 +20,7 @@
 }
 
 .testimonials__review-photo {
+    display: flex;
     border-radius: 50%;
     width: 70px;
 
@@ -30,6 +31,7 @@
     font-size: 1.6rem;
     color: var(--subtitle-text-color);
     text-align: center;
+    align-items: center;
 }
 
 .testimonials__review-text {
@@ -51,8 +53,24 @@
     text-align: center;
 
 }
+.testimonials__review-conteiner {
+    display: grid;
+    column-gap: 15px
+
+}
+
 
 .testimonials__review {
+    display: grid;
     background-color: var(--background-transparent-color);
     margin-top: 50px;
+    justify-content: center;
+
+}
+@media (min-width : 768px) {
+    .testimonials__review-conteiner {
+        grid-template-columns: 1fr 1fr;
+        column-gap: 15px;
+    
+    }
 }
