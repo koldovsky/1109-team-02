@@ -1,6 +1,5 @@
 document.addEventListener('partialsLoaded',
 () => {
-import('./menu/bar-slides.js');
-import('./menu/food-slides.js');
-import('./bottles.js');
+  import('./header-title.js');
+  import('./bottles.js');
 });
