@@ -1,0 +1,9 @@
+.food__cards-carousel {
+  display: grid;
+  grid-template-columns: 40px 1fr 40px;
+}
+.food__cards {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
