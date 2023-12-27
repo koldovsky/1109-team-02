@@ -165,6 +165,10 @@ let currentSlideIdx = 0;
 function renderSlide(){
     const slideContainer = document.querySelector('.food__cards');
     slideContainer.innerHTML = slides[currentSlideIdx];
+    if(window.matchMedia('(min-width:768px)').matches) {
+      const secondSlideIdx = currentSlideIdx + 1 > slides.length - 1? 0 : currentSlideIdx + 1;
+      slideContainer.innerHTML += slides[secondSlideIdx];
+    }
 
 }
 function nextSlide() {
@@ -184,3 +188,4 @@ buttonNext.addEventListener('click', nextSlide);
 
 const buttonPrev = document.querySelector('.food-carousel__button-prev');
 buttonPrev.addEventListener('click', prevSlide);
+window.addEventListener('resize', renderSlide);
