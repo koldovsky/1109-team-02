@@ -55,24 +55,34 @@
 .card {
     min-height: 370px;
     min-width: 300px;
+    border: 1px;
+}
+
+.card:hover .card__text {
+    opacity: 1;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(92, 65, 0.9), rgba(0, 0, 0, 0.1));
+}
+
+.card:hover .card__link {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(92, 65, 1, 0.9), rgba(0, 0, 0, 0.1));
 }
 
 .menu__card-bar {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/menu_section/glass_of_beer_with_bottle.png);
+    background: url(../img/menu_section/glass_of_beer_with_bottle.png);
     background-size: cover;
     background-position: center;
 }
 
 .menu__card-food {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/menu_section/big_hamburger.webp);
+    background: url(../img/menu_section/big_hamburger.webp);
     background-size: cover;
     background-position: center;
 }
 
 .menu__card-happy {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/menu_section/bucket_of_snacks.webp);
+    background: url(../img/menu_section/bucket_of_snacks.webp);
     background-size: cover;
-    background-position: center;
+    background-position: center bottom;
 }
 
 .card__title {
@@ -89,20 +99,34 @@
     font-family: "Open Sans", sans-serif;
     color: var(--subtitle-text-color);
     padding: 10px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
 }
 
 .card__link {
     position: absolute;
-    bottom: 25px;
+    bottom: 9px;
     left: 30%;
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
     font-weight: 700;
-    color: var(--hover-button-color);
+    color: var(--link-menu-text-color);
 }
 
 .card__link:hover,
 .card__link:active {
     color: var(--accent-text-dark-color);
     text-decoration: underline;
+}
+
+@media screen and (max-width: 767px) {
+    .card__text {
+        opacity: 1;
+        transition: none;
+        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(92, 65, 1, 0.9), rgba(0, 0, 0, 0.1));
+    }
+
+    .card__link {
+        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(92, 65, 1, 0.9), rgba(0, 0, 0, 0.1));
+    }
 }
