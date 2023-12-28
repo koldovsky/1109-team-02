@@ -19,8 +19,9 @@
     --background-dark-color: #000000;
     --background-light-color: #ffc123;
     --background-transparent-color: #0000009c;
-    --hover-button-color:#edb31f;
+    --hover-button-color: #edb31f;
     --discount-color: #444343;
+    --link-menu-text-color: #ffc962;
     scroll-behavior: smooth;
 }
 
