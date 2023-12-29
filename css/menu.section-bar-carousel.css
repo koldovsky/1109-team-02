@@ -1,9 +1,39 @@
-.food__cards-carousel {
-  display: grid;
-  grid-template-columns: 40px 1fr 40px;
+.bar__carousel {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
 }
-.food__cards {
-    display:flex;
-    align-items: center;
-    justify-content: center;
+
+.bar__cards {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.bar__card-container {
+  flex: 0 0 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+  .bar__card-container {
+    flex: 0 0 50%;
+  }
+}
+
+.bar-carousel__button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+  fill: var(--subtitle-light-color);
+  background-color: transparent;
+}
+.button-next {
+  right: 10px;
+}
+.button-prev {
+  transform: rotate(180deg);
 }

@@ -1,3 +1,7 @@
+
+.bar_image{
+  margin-top: 50px;
+}
 .arrow-svg_1j4{
   fill: var(--subtitle-light-color);
   border-radius: 50%;
@@ -88,6 +92,8 @@ button.food-carousel__button-next {
   font-weight: 400;
   color: var(--subtitle-text-color);
   display: flex;
+  line-height: 1;
+  margin-bottom:0;
 }
 
 .food__cards .card__info-price {
@@ -97,15 +103,20 @@ button.food-carousel__button-next {
   text-transform: uppercase;
   color: var(--title-text-color);
   display: flex;
+  line-height: 1;
+  align-items: flex-end;
+  margin-bottom:0;
 }
 .card__info-description {
   font-weight: 400;
   font-family: "Open Sans", sans-serif;
   font-size: 1.0625rem;
   color: var(--text-light-color);
+  margin-bottom:0;
 }
 
 @media (min-width: 768px) {
+  
   .food__cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -141,6 +152,12 @@ button.food-carousel__button-next {
 }
 
 @media (min-width: 992px) {
+  .bar_image{
+    margin-top: 55px;
+  }
+  .food__card {
+    padding: 0 30px;
+  }
   .food__cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

@@ -1,6 +1,6 @@
-const slides = [ `<div><div class="food__card card__container">
+const slides = [ `<div class="food__card card__container">
 <h4 class="card__name">Snacks</h4>
-<article class="card__info-container container">
+<article class="card__info-container">
   <div class="card__info">
     <h5 class="card__info-name">SPICY NACHOS</h5>
     <div class="card__info-line"></div>
@@ -10,7 +10,7 @@ const slides = [ `<div><div class="food__card card__container">
     Cheddar cheese, jalapenos, queso fresco, sour cream, salsa
   </p>
 </article>
-<article class="card__info-container container">
+<article class="card__info-container">
   <div class="card__info">
     <h5 class="card__info-name">FISH & CHIPS</h5>
     <div class="card__info-line"></div>
@@ -20,7 +20,7 @@ const slides = [ `<div><div class="food__card card__container">
     Ale battered cod, coleslaw, French fries, and tartar sauce
   </p>
 </article>
-<article class="card__info-container container">
+<article class="card__info-container">
   <div class="card__info">
     <h5 class="card__info-name">FRIED CALAMARY</h5>
     <div class="card__info-line"></div>
@@ -30,7 +30,7 @@ const slides = [ `<div><div class="food__card card__container">
     Fried calamari served with spicy tartar sauce and dill aioli
   </p>
 </article>
-<article class="card__info-container container">
+<article class="card__info-container">
   <div class="card__info">
     <h5 class="card__info-name">CHICKEN WRAP</h5>
     <div class="card__info-line"></div>
@@ -40,7 +40,7 @@ const slides = [ `<div><div class="food__card card__container">
     Grilled chicken, bacon, tomato, cucumber, avocado, village sauce
   </p>
 </article>
-<article class="card__info-container container">
+<article class="card__info-container">
   <div class="card__info">
     <h5 class="card__info-name">MAC & CHEESE BITES</h5>
     <div class="card__info-line"></div>
@@ -50,10 +50,10 @@ const slides = [ `<div><div class="food__card card__container">
     With maple bacon and cheese sauce
   </p>
 </article>
-</div></div>`,
-`<div><div class="food__card card__container">
+</div>`,
+`<div class="food__card card__container">
 <h4 class="card__name">burgers</h4>
-<article class="card__info-container container">
+<article class="card__info-container">
   <div class="card__info">
     <h5 class="card__info-name">CLASSIC BURGER</h5>
     <div class="card__info-line"></div>
@@ -63,7 +63,7 @@ const slides = [ `<div><div class="food__card card__container">
     Beef, tomato, pickle, lettuce, cucumber, cheddar cheese, bacon
   </p>
 </article>
-<article class="card__info-container container">
+<article class="card__info-container">
   <div class="card__info">
     <h5 class="card__info-name">BEEF KING</h5>
     <div class="card__info-line"></div>
@@ -73,7 +73,7 @@ const slides = [ `<div><div class="food__card card__container">
     Beef brisket, Swiss cheese, caramelised onions
   </p>
 </article>
-<article class="card__info-container container">
+<article class="card__info-container">
   <div class="card__info">
     <h5 class="card__info-name">DOUBLE CHEESEBURGER</h5>
     <div class="card__info-line"></div>
@@ -83,7 +83,7 @@ const slides = [ `<div><div class="food__card card__container">
     Double beef patties with cheese, tomato, topped with mozzarella
   </p>
 </article>
-<article class="card__info-container container">
+<article class="card__info-container">
   <div class="card__info">
     <h5 class="card__info-name">CHICKEN BURGER</h5>
     <div class="card__info-line"></div>
@@ -93,7 +93,7 @@ const slides = [ `<div><div class="food__card card__container">
     Chicken breast, soaked with hot sauce & blue cheese slaw
   </p>
 </article>
-<article class="card__info-container container">
+<article class="card__info-container">
   <div class="card__info">
     <h5 class="card__info-name">BOUTIQUE BURGER</h5>
     <div class="card__info-line"></div>
@@ -103,10 +103,10 @@ const slides = [ `<div><div class="food__card card__container">
     Maple bacon, tomato, red onions topped off with a fried egg
   </p>
 </article>
-</div></div>`,
-`<div><div class="food__card card__container">
+</div>`,
+`<div class="food__card card__container">
 <h4 class="card__name">Meat</h4>
-<article class="card__info-container container">
+<article class="card__info-container">
   <div class="card__info">
     <h5 class="card__info-name">SESAME CHICKEN STRIPS</h5>
     <div class="card__info-line"></div>
@@ -116,7 +116,7 @@ const slides = [ `<div><div class="food__card card__container">
     Chicken breasts in Jack Daniel's® glaze with toasted sesame seeds
   </p>
 </article>
-<article class="card__info-container container">
+<article class="card__info-container">
   <div class="card__info">
     <h5 class="card__info-name">HOT WINGS</h5>
     <div class="card__info-line"></div>
@@ -126,7 +126,7 @@ const slides = [ `<div><div class="food__card card__container">
     Served with barbecue sauce and coleslaw
   </p>
 </article>
-<article class="card__info-container container">
+<article class="card__info-container">
   <div class="card__info">
     <h5 class="card__info-name">LAMB GYRO</h5>
     <div class="card__info-line"></div>
@@ -136,7 +136,7 @@ const slides = [ `<div><div class="food__card card__container">
     Lamb, tzatziki sauce, tomato, cucumber & lettuce in pita bread
   </p>
 </article>
-<article class="card__info-container container">
+<article class="card__info-container">
   <div class="card__info">
     <h5 class="card__info-name">LAMB CHOPS</h5>
     <div class="card__info-line"></div>
@@ -146,7 +146,7 @@ const slides = [ `<div><div class="food__card card__container">
     Marinated herb roasted rack of lamb chops with balsamic sauce
   </p>
 </article>
-<article class="card__info-container container">
+<article class="card__info-container">
   <div class="card__info">
     <h5 class="card__info-name">PAN ROASTED PORK CHOP</h5>
     <div class="card__info-line"></div>
@@ -156,7 +156,7 @@ const slides = [ `<div><div class="food__card card__container">
     Served in a bourbon & honey glaze with berry sauce
   </p>
 </article>
-</div></div>`,
+</div>`,
 
 ];
 
