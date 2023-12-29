@@ -2,7 +2,7 @@
     padding: 120px 0 65px;
 }
 
-.menu__title {
+.menu__title{
     font-size: 28px;
     text-align: center;
     min-width: 370px;
@@ -129,4 +129,18 @@
     .card__link {
         background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(92, 65, 1, 0.9), rgba(0, 0, 0, 0.1));
     }
+}
+
+.funny__text {
+    font-size: 20px;
+    text-align: center;
+    color: var(--background-light-color);
+}
+
+.funny__title {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 25px;
+    text-align: center;
+    color: var(--link-menu-text-color);
+    margin: 0;
 }
