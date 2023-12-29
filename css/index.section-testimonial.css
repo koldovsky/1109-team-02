@@ -20,9 +20,9 @@
 }
 
 .testimonials__review-photo {
-    display: flex;
     border-radius: 50%;
     width: 70px;
+   align-items: center;
 
 }
 
