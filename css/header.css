@@ -102,7 +102,7 @@
     position: absolute;
     top: 10%;
     color: var(--subtitle-text-color);
-    margin-left: 10%;
+    margin-left: 20px;
 }
 
 .navbar {
@@ -257,11 +257,12 @@ body.fixed {
         top: 50%;
         display: flex;
         flex-direction: column;
-        transform: translate(10%, -50%);
+        transform: translate(0, -50%);
         align-items: center;
         z-index: 1;
         width: 100%;
         color: var(--subtitle-text-color);
+        margin:0;
     }
 
     .header__nav {
