@@ -262,6 +262,7 @@ body.fixed {
         z-index: 1;
         width: 100%;
         color: var(--subtitle-text-color);
+        margin:0;
     }
 
     .header__nav {
