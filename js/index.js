@@ -5,4 +5,5 @@ document.addEventListener('partialsLoaded',
   import('./section-menu.js');
   import('./bottles.js');
   import('./offers.js');
+  import('./testimonials.js')
 });
