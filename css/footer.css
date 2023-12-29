@@ -40,7 +40,7 @@
 }
 
 .footer__column-title {
-    font-size: 38px;
+    font-size: 26px;
     text-transform: capitalize;
     margin-bottom: 35px;
     font-weight: 500;
@@ -125,11 +125,6 @@
     margin: 3px;
 }
 
-.subscribe-form__group {
-    display: flex;
-    flex-direction: column;
-}
-
 .subscribe-form__input,
 .subscribe-form__button {
     margin-bottom: 10px;
@@ -141,6 +136,7 @@
     font-size: 12px;
     padding: 10px 20px;
     text-align: center;
+    font-weight: bold;
 }
 
 .subscribe-form__input {
@@ -152,6 +148,7 @@
 
 .subscribe-form__group {
     display: flex;
+    flex-direction: column;
     align-items: center;
     text-align: center;
     margin: 0;
@@ -175,5 +172,8 @@
 
     .subscribe-form__button {
         width: 270px;
+    }
+    .footer__column-title {
+        font-size: 32px;
     }
 }
