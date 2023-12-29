@@ -12,6 +12,7 @@
 }
 .testimonials__review-card {
   padding: 0 15px;
+  
 }
 
 .testimonials__header {
@@ -57,20 +58,21 @@
 }
 .testimonials__review-conteiner {
   column-gap: 15px;
-  display: grid;
+  display: inline;
 }
 
 .testimonials__review {
   text-align: -webkit-center;
-  background-color: var(--background-transparent-color);
   margin-top: 50px;
   padding: 35px 29px;
+  background-color: var(--background-transparent-color);
 }
 @media (min-width: 768px) {
   .testimonials__review {
     padding: 40px;
   }
   .testimonials__review-conteiner {
+    display: flex;
     grid-template-columns: 1fr 1fr;
   }
   .testimonials__review-photo {
