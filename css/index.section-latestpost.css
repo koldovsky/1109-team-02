@@ -1,0 +1,57 @@
+
+.latestpost {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #f7f7f7;
+}
+
+.latestpost__general {
+    flex-basis: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.latestpost-event-tasting,
+.latestpost-beer-blog,
+.latestpost-irish-festival {
+    flex-basis: 30%;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.latestpost__general img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.latestpost__general h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.latestpost__general p {
+    font-size: 0.9em;
+    color: #888;
+    margin-bottom: 15px;
+}
+
+.latestpost__general a {
+    text-decoration: none;
+    color: #ff6600;
+    font-weight: bold;
+}
+
+.latestpost__general a:hover {
+    text-decoration: underline;
+}
