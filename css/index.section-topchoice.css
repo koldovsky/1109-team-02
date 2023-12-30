@@ -136,3 +136,39 @@
     margin-top: 55px;
     text-transform: uppercase;
 }
+
+@media (max-width: 990px) {
+    .text__title {
+        font-size: 21px;
+    }
+
+    .text__subtitle {
+        font-size: 52px;
+    }
+
+    .top__title, .top__price  {
+        font-size: 32px;
+    }
+
+    .topchoice__container-images{
+        flex-wrap: wrap;
+    }
+
+    .topchoice__container-images div {
+        max-width: 47%;
+    }
+}
+
+@media (max-width: 760px) {
+    .container-cards__cards {
+        max-width: 660px;
+    }
+
+    .cards__card {
+        width: 100%;
+    }
+
+    .topchoice__container-images {
+        gap: 15px;
+    }
+}
