@@ -1,4 +1,4 @@
-.about-beer{
+.about-beer {
     margin-bottom: 120px;
 }
 
@@ -9,29 +9,29 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
 
-    .ourstory__img{
-        width: 100%;
-        background-size: cover;
-        height: 442px;
-        background-image: url('../img/about/boyandgirl.webp');
-    }
-  
-  .about-beer__container p{
+.ourstory__img {
+    width: 100%;
+    background-size: cover;
+    height: 442px;
+    background-image: url('../img/about/boyandgirl.webp');
+}
+
+.about-beer__container p {
     font-family: "Teko", sans-serif;
     color: var(--paragraph-text-dark-color);
     font-size: 40px;
     font-weight: 400;
     text-transform: uppercase;
     text-align: center;
-  }
+}
 
-  .ourstory__plaintext{
+.ourstory__plaintext {
     padding: 90px 45px;
-  }
+}
 
-  .ourstory__subtitle {
+.ourstory__subtitle {
     font-family: "Teko", sans-serif;
     color: var(--subtitle-text-color);
     font-size: 40px;
@@ -40,7 +40,7 @@
     margin-top: 20px;
 }
 
-.ourstory__description{
+.ourstory__description {
     font-size: 19px;
     font-family: "Open Sans", sans-serif;
     font-weight: 500;
@@ -48,7 +48,7 @@
     margin-top: 25px;
 }
 
-.ourstory__text{
+.ourstory__text {
     font-size: 17px;
     font-family: "Open Sans", sans-serif;
     font-weight: 500;
@@ -57,7 +57,7 @@
 }
 
 @media (min-width: 768px) {
-    .ourstory__title{
+    .ourstory__title {
         font-size: 28px;
     }
 
@@ -69,7 +69,7 @@
         font-size: 61px;
     }
 
-    .about-beer__ourstory{
+    .about-beer__ourstory {
         display: flex;
     }
 
@@ -77,28 +77,29 @@
         font-size: 61px;
     }
 
-    .ourstory__plaintext{
-        padding: 120px 45px;
-      }
+    .ourstory__plaintext {
+        padding: 120px 0;
+        max-width: 570px;
+        margin: 0 auto;
+    }
 
-    .ourstory__img{
+    .ourstory__img {
         width: 50%;
         background-size: cover;
         height: 704px;
         background-image: url('../img/about/boyandgirl.webp');
     }
 
-    .about-beer__ourstory img{
+    .about-beer__ourstory img {
         width: 50%;
     }
 
-    .ourstory__plaintext{
-        width: 50%;;
+    .ourstory__plaintext {
+        width: 50%;
+        ;
     }
 
-    .ourstory__img{
+    .ourstory__img {
         background-position: center;
     }
 }
-
-
