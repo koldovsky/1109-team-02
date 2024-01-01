@@ -2,8 +2,7 @@
 @import url(header.css);
 @import url(contacts.section-title.css);
 @import url(contacts.section-contact-info.css);
-@import url(contacts.section-navigation-map.css);
-@import url(contacts.section-form.partial.css);
+@import url(contacts.section-navigation-map-and-form.css);
 @import url(footer.css);
 
 
