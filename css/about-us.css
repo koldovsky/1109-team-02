@@ -1,7 +1,7 @@
 .team {
   justify-content: center;
   text-align: center;
-  display: flex;
+  /*display: flex; -тимчасово закрили щоб завершити свої блоки.*/
 }
 
 .team-member__image {
@@ -13,3 +13,4 @@
   height: 300px;
   width: 300px;
 }
+

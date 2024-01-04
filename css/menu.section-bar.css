@@ -3,7 +3,6 @@
   background-size: cover;
   min-height: 110px;
   align-items: center;
- 
 }
 .menu__header-title {
   font-family: "Teko", sans-serif;
@@ -12,29 +11,21 @@
   font-weight: 400;
   text-transform: uppercase;
   text-align: center;
-
 }
-
 .bar__menu {
   padding: 90px 0 30px 0;
 }
 .bar__container {
   padding: 0 24px;
 }
-
 .bar__cards {
   margin-top: 45px;
   /*display: grid;
   grid-template-columns: 1fr;*/
 }
-.bar__card {
-  padding: 0 20px;
-}
-
-.card__info-container {
+.bar__card .card__info-container {
   padding: 7.5px 0;
 }
-
 .card__info {
   width: 100%;
   display: flex;
@@ -42,7 +33,6 @@
   justify-content: space-between;
   align-items: flex-end;
   margin: 0;
-  
 }
 .card__info-line {
   display: flex;
@@ -63,7 +53,6 @@
   text-transform: uppercase;
   text-align: center;
 }
-
 .bar__info-description {
   font-size: 1.1875rem;
   font-weight: 500;
@@ -80,7 +69,6 @@
   text-transform: uppercase;
   color: var(--title-text-color);
 }
-
 .bar__cards .card__info-name {
   font-family: "Teko", sans-serif;
   color: var(--subtitle-text-color);
@@ -89,9 +77,8 @@
   color: var(--subtitle-text-color);
   display: flex;
   line-height: 1;
-  margin-bottom:0;
+  margin-bottom: 0;
 }
-
 .bar__cards .card__info-price {
   font-family: "Teko", sans-serif;
   font-size: 1.625rem;
@@ -101,19 +88,17 @@
   display: flex;
   line-height: 1;
   align-items: flex-end;
-  margin-bottom:0;
+  margin-bottom: 0;
 }
 .card__info-description {
   font-weight: 400;
   font-family: "Open Sans", sans-serif;
   font-size: 1.0625rem;
   color: var(--text-light-color);
-  margin-bottom:0;
+  margin-bottom: 0;
 }
 
 @media (min-width: 768px) {
-
-  
   .bar__menu {
     padding: 105px 0 30px 0;
   }
@@ -127,37 +112,36 @@
     font-size: 3.1875rem;
     font-weight: 400;
   }
-  
   .bar__cards .card__info-name {
     font-size: 2rem;
     font-weight: 400;
   }
-
   .bar__cards .card__info-price {
     font-size: 2rem;
     font-weight: 400;
   }
 }
- /* .bar__cards {
+/* .bar__cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }*/
- 
 
 @media (min-width: 992px) {
   .menu__header-title {
     font-size: 3.875rem;
-
   }
- /* .bar__cards {
+  /* .bar__cards {
     display: grid;
    grid-template-columns: 1fr 1fr 1fr;   
   }*/
   .bar__menu {
     padding: 120px 0 30px 0;
+    max-width: 1200px;
+    margin: auto;
+    box-sizing: border-box;
   }
   .bar__container {
-    padding: 0 40px;
+    padding: 0;
   }
   .bar__info-title {
     font-size: 1.75rem;
@@ -165,20 +149,13 @@
   .bar__info-header {
     font-size: 3.875rem;
   }
-
   .bar__card .card__name {
     font-size: 2.375rem;
   }
-
   .bar__cards .card__info-name {
     font-size: 2.375rem;
   }
-
   .bar__cards .card__info-price {
     font-size: 2.375rem;
   }
 }
-
-
-
-

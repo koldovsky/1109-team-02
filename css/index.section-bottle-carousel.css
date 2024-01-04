@@ -1,0 +1,60 @@
+.bottles__carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.carousel__slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+.bottles__carousel .carousel__slide {
+    flex: 0 0 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.bottle-carousel__button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    fill: var(--title-text-color);
+    border: none;
+    font-size: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color:var(--background-transparent-color);
+}
+.bottles-container .button-prev {
+    width: 24px;
+    height: 24px;
+    left: 10px;
+}
+.bottles-container .button-next {
+    width: 24px;
+    height: 24px;
+    right: 10px;
+}
+.button-prev .arrow-svg_1j4{
+    transform: rotate(180deg);
+}
+.arrow-svg_1j4 {
+    width: 12px;
+    height: 12px;
+}
+
+@media (min-width: 768px) {
+    .bottles__carousel .carousel__slide{
+        flex: 0 0 50%;
+    }
+    .arrow-svg_1j4 {
+        width: 20px;
+        height:20px;
+    }
+    .bottles-container .button-next {
+        width: 32px;
+        height: 32px;   
+    }
+    .bottles-container .button-prev {
+        width: 32px;
+        height: 32px;  
+    }
+}
