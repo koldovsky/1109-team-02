@@ -1,7 +1,15 @@
 @import url(globals.css);
 @import url(header.css);
+@import url(header-beer-video.css);
+@import url(index.section-menu.css);
 @import url(index.section-testimonial.css);
 @import url(index.section-bottle.css);
+@import url(index.section-bottle-carousel.css);
+@import url(index.section-topchoice.css);
 @import url(index.section-what-we-offer.css);
 @import url(index.section-price.css);
 @import url(index.section-story.css);
+@import url(about-us.css);
+@import url(footer.css);
+@import url(index.section-friday-deal.css);
+@import url(index.section-latestpost.css);

@@ -1,0 +1,44 @@
+.bar__carousel {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.bar__cards {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+.bar__card-container {
+  flex: 0 0 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.bar-carousel__button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+  fill: var(--hover-button-color);
+  background-color: transparent;
+}
+.button-next {
+  right: 10px;
+}
+.button-prev {
+  transform: rotate(180deg);
+}
+
+@media (min-width: 768px) {
+  .bar__card-container {
+    flex: 0 0 50%;
+  }
+  .bar__card-container {
+    padding: 0 30px;
+  }
+}
+@media (min-width: 992px) {
+  .arrow-svg_1j4 {
+    background-color: transparent;
+  }
+}

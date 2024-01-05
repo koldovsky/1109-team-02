@@ -1,64 +1,99 @@
-<section class="bottles">
-    <div class="bottle__container">
-        <h2 class="bottle__title">Bottled beer</h2>
-        <p class="bottle__tagline">BOTTLED BEER SPECIALS</p>
-        <p class="bottle__subtitle">Appreciate the taste of craft bottled beer from the best producers.</p>
-    </div>
-    <div class="bottles__carousel carousel">
-        <div class="carousel__rteck-conteiner">
-            <ul class="carousel__rteck">
-                <li class="carousel__slide">
-                    <img src="img/bottle/lager.png" alt="Slide 1" class="carousel__image">
-                    <h3 class="carousel__title">Lager beer</h3>
-                    <p class="carousel__subtitle">
-                        This classic bottled beer features a wheat aroma and mild taste.
-                    </p>
-                    <p class="carousel__text">
-                        ABV-4.2% <br>
-                        IBU-12
-                    </p>
-                    <p class="carousel__text">Light,mild,withvery little bitterness</p>
-                </li>
-                <li class="carousel__slide">
-                    <img src="img/bottle/bitter.png" alt="Slide 2" class="carousel__image">
-                    <h3 class="carousel__title">Bitter</h3>
-                    <p class="carousel__subtitle">
-                        "England's favorite beer" is a great choice for those who like
-                        dark varieties of beer.
-                    </p>
-                    <p class="carousel__text">
-                        ABV-4.6% <br>
-                        IBU-40
-                    </p>
-                    <p class="carousel__text">Bitter,malty,with a slight aftertaste of toasts</p>
-                </li>
-                <li class="carousel__slide">
-                    <img src="img/bottle/ipa.png" alt="Slide 3" class="carousel__image">
-                    <h3 class="carousel__title">Ipa</h3>
-                    <p class="carousel__subtitle">
-                        Ideal for those who prefer strong and bitter beer with rich
-                        aroma.
-                    </p>
-                    <p class="carousel__text">
-                        ABV-8% <br>
-                        IBU-80
-                    </p>
-                    <p class="carousel__text">Very bitter, hoppy,with grainy notes</p>
-                </li>
-            </ul>
+<section class="bottles-container container">
+  <div class="bottle__container">
+    <h2 class="bottle__title">Bottled beer</h2>
+    <p class="bottle__tagline">BOTTLED BEER SPECIALS</p>
+    <p class="bottle__subtitle">
+      Appreciate the taste of craft bottled beer from the best producers.
+    </p>
+  </div>
+  <div class="bottles__carousel carousel">
+    <div class="carousel__container">
+      <div class="carousel__slides">
+        <div class="carousel__slide">
+          <div class="carousel__image">
+            <img src="img/bottle/lager.png" alt="lager" />
+          </div>
+          <div class="carousel__slide-description">
+            <h3 class="carousel__title">Lager beer</h3>
+            <p class="carousel__subtitle">
+              This classic bottled beer features a wheat aroma and mild taste.
+            </p>
+            <p class="carousel__text">
+              ABV-4.2% <br />
+              IBU-12
+            </p>
+            <p class="carousel__text">Light,mild,withvery little bitterness</p>
+          </div>
         </div>
-
-        <button class="carousel__button carousel__button--left" type="button">
-            ←
-        </button>
-        <button class="carousel__button carousel__button--right" type="button">
-            →
-        </button>
-
-        <div class="carousel__nav">
-            <button class="carousel__indicator carousel__indicator--active" type="button" data-slide-to="0"></button>
-            <button class="carousel__indicator" type="button" data-slide-to="1"></button>
-            <button class="carousel__indicator" type="button" data-slide-to="2"></button>
+        <div class="carousel__slide">
+          <div class="carousel__image">
+            <img
+              src="img/bottle/bitter.png"
+              alt="bitter"
+              class="carousel__image"
+            />
+          </div>
+          <div class="carousel__slide-description">
+            <h3 class="carousel__title">Bitter</h3>
+            <p class="carousel__subtitle">
+              "England's favorite beer" is a great choice for those who like
+              dark varieties of beer.
+            </p>
+            <p class="carousel__text">
+              ABV-4.6% <br />
+              IBU-40
+            </p>
+            <p class="carousel__text">
+              Bitter,malty,with a slight aftertaste of toasts
+            </p>
+          </div>
         </div>
+        <div class="carousel__slide">
+          <div class="carousel__image">
+            <img src="img/bottle/ipa.png" alt="ipa" class="carousel__image" />
+          </div>
+          <div class="carousel__slide-description">
+            <h3 class="carousel__title">Ipa</h3>
+            <p class="carousel__subtitle">
+              Ideal for those who prefer strong and bitter beer with rich aroma.
+            </p>
+            <p class="carousel__text">
+              ABV-8% <br />
+              IBU-80
+            </p>
+            <p class="carousel__text">Very bitter, hoppy,with grainy notes</p>
+          </div>
+        </div>
+      </div>
     </div>
+     <button class="bottle-carousel__button button-prev"><svg class="arrow-svg_1j4" viewBox="0 0 30 30">
+      <defs>
+        <path
+          d="M19.533 15l-9.1-9.45c-.577-.6-.577-1.5 0-2.1.578-.6 1.445-.6 2.023 0l10.11 10.5c.29.3.434.75.434 1.05 0 .45-.144.75-.433 1.05l-10.111 10.5c-.29.3-.578.45-1.012.45-.433 0-.722-.15-1.01-.45-.578-.6-.578-1.5 0-2.1l9.1-9.45z"
+          id="a-1701465993435"
+        ></path>
+      </defs>
+      <use
+        fill-rule="nonzero"
+        opacity=".8"
+        xlink:href="#a-1701465993435"
+      ></use>
+    </svg>
+        </button
+      ><button class="bottle-carousel__button button-next">
+        <svg class="arrow-svg_1j4" viewBox="0 0 30 30">
+          <defs>
+            <path
+              d="M19.533 15l-9.1-9.45c-.577-.6-.577-1.5 0-2.1.578-.6 1.445-.6 2.023 0l10.11 10.5c.29.3.434.75.434 1.05 0 .45-.144.75-.433 1.05l-10.111 10.5c-.29.3-.578.45-1.012.45-.433 0-.722-.15-1.01-.45-.578-.6-.578-1.5 0-2.1l9.1-9.45z"
+              id="a-1701465993435"
+            ></path>
+          </defs>
+          <use
+            fill-rule="nonzero"
+            opacity=".8"
+            xlink:href="#a-1701465993435"
+          ></use>
+        </svg>
+      </button>
+  </div>
 </section>

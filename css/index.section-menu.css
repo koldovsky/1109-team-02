@@ -1,0 +1,146 @@
+.menu {
+    padding: 120px 0 65px;
+}
+
+.menu__title{
+    font-size: 28px;
+    text-align: center;
+    min-width: 370px;
+    margin: 0;
+}
+
+.menu__tagline {
+    font-size: 62px;
+    text-align: center;
+    font-family: "Teko", sans-serif;
+    color: var(--subtitle-text-color);
+    min-width: 370px;
+    margin: 0;
+}
+
+.menu__subtitle {
+    font-size: 19px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    color: var(--subtitle-light-color);
+    min-width: 370px;
+    margin: 0;
+}
+
+.menu__cards {
+    display: grid;
+    gap: 30px;
+    padding: 40px;
+}
+
+@media (min-width: 450px) {
+    .menu__cards {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 700px) {
+    .menu__cards {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 1100px) {
+    .menu__cards {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+.card {
+    min-height: 370px;
+    min-width: 300px;
+    border: 1px;
+}
+
+.card:hover .card__text {
+    opacity: 1;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(92, 65, 0.9), rgba(0, 0, 0, 0.1));
+}
+
+.card:hover .card__link {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(92, 65, 1, 0.9), rgba(0, 0, 0, 0.1));
+}
+
+.menu__card-bar {
+    background: url(../img/menu_section/glass_of_beer_with_bottle.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.menu__card-food {
+    background: url(../img/menu_section/big_hamburger.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.menu__card-happy {
+    background: url(../img/menu_section/bucket_of_snacks.webp);
+    background-size: cover;
+    background-position: center bottom;
+}
+
+.card__title {
+    font-size: 54px;
+    text-align: center;
+    font-family: "Teko", sans-serif;
+    color: var(--subtitle-text-color);
+    padding: 10px 0 0;
+}
+
+.card__text {
+    font-size: 17px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    color: var(--subtitle-text-color);
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.card__link {
+    position: absolute;
+    bottom: 9px;
+    left: 30%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--link-menu-text-color);
+}
+
+.card__link:hover,
+.card__link:active {
+    color: var(--accent-text-dark-color);
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 767px) {
+    .card__text {
+        opacity: 1;
+        transition: none;
+        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(92, 65, 1, 0.9), rgba(0, 0, 0, 0.1));
+    }
+
+    .card__link {
+        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(92, 65, 1, 0.9), rgba(0, 0, 0, 0.1));
+    }
+}
+
+.funny__text {
+    font-size: 20px;
+    text-align: center;
+    color: var(--background-light-color);
+}
+
+.funny__title {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 25px;
+    text-align: center;
+    color: var(--link-menu-text-color);
+    margin: 0;
+}

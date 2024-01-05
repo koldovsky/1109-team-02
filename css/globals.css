@@ -19,13 +19,25 @@
     --background-dark-color: #000000;
     --background-light-color: #ffc123;
     --background-transparent-color: #0000009c;
-    --hover-button-color:#edb31f;
+    --hover-button-color: #edb31f;
+    --discount-color: #444343;
+    --link-menu-text-color: #ffc962;
     scroll-behavior: smooth;
+    --backround-footer-button-color: #151212;
+}
+
+img {
+    display: block;
+    width: 100%;
 }
 
 .container {
     max-width: 1200px;
     margin: auto;
+}
+
+body {
+    background-image: url(../img/bg.png);
 }
 
 h2 {
@@ -42,20 +54,4 @@ a {
 p {
     font-family: "Open Sans", sans-serif;
     color: var(--text-light-color);
-}
-
-header {
-    background-color: var(--background-dark-color);
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
-main {
-    display: flex;
-    flex-direction: column;
-}
-
-body {
-    background-image: url(../img/bg.png);
 }

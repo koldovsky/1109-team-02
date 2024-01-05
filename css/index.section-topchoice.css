@@ -1,0 +1,174 @@
+.topchoice {
+    margin-bottom: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.topchoice__container-images div{
+    max-width: 270px;
+    width: 100%;
+    height: 263px;
+    background-size: cover;
+    background-position: center;
+}
+
+.text__title {
+    font-size: 28px;
+}
+
+.container-images__image-fries{
+    background-image: url('../img/topchoice/fries.webp');
+}
+
+.container-images__image-beer{
+    background-image: url('../img/topchoice/handBeer.webp');
+}
+
+.container-images__image-hamburger{
+    background-image: url('../img/topchoice/hamburger.webp');
+}
+
+.container-images__image-people{
+    background-image: url('../img/topchoice/people.webp');
+}
+
+.topchoice__text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.text__subtitle {
+    color: var(--subtitle-text-color);
+    font-size: 62px;
+    text-align: center;
+    font-family: "Teko", sans-serif;
+    margin: 0;
+}
+
+.text__description {
+    font-size: 19px;
+    margin: 0;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    color: var(--subtitle-light-color);
+}
+
+.topchoice__container-images img {
+    max-width: 270px;
+    width: 100%;
+    max-height: 260px;
+}
+
+.topchoice__container-images {
+    display: flex;
+    max-width: 1170px;
+    width:100%;
+    gap: 30px;
+}
+
+.top__title{
+    color: var(--subtitle-text-color);
+    font-size: 38px;
+    text-align: center;
+    font-family: "Teko", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container-cards__cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    list-style: none;
+    padding: 0;
+}
+
+.card__top {
+    display: flex;
+    align-items: center;
+}
+
+.top__price {
+    color: var(--accent-text-dark-color);
+    font-size: 38px;
+    font-family: "Teko", sans-serif;
+    margin: 0;
+}
+
+.cards__card {
+    width: 50%;
+    box-sizing: border-box;
+    flex-direction: column;
+    padding: 7.5px 7.5px;
+
+}
+
+.card__description {
+    font-size: 17px;
+    margin: 0;
+}
+
+.top__line{
+    height: 20px;
+    flex-grow: 1;
+    border-bottom: 1px solid var(--text-light-color);
+}
+
+.topchoice__container-cards {
+    max-width: 1170px;
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.topchoice__menu-button {
+    display: inline-block;
+    color: var(--paragraph-text-dark-color);
+    background-color: var(--background-light-color);
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    padding: 21px 40px;
+    margin: auto 0 ;
+    margin-top: 55px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 990px) {
+    .text__title {
+        font-size: 21px;
+    }
+
+    .text__subtitle {
+        font-size: 52px;
+    }
+
+    .top__title, .top__price  {
+        font-size: 32px;
+    }
+
+    .topchoice__container-images{
+        flex-wrap: wrap;
+    }
+
+    .topchoice__container-images div {
+        max-width: 47%;
+    }
+}
+
+@media (max-width: 760px) {
+    .container-cards__cards {
+        max-width: 660px;
+    }
+
+    .cards__card {
+        width: 100%;
+    }
+
+    .topchoice__container-images {
+        gap: 15px;
+    }
+}

@@ -1,0 +1,94 @@
+.header__button.button {
+    display: inline-block;
+    padding: 25px 55px;
+    background-color: var(--background-light-color);
+    color: var(--paragraph-text-dark-color);
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.header__button.button:hover {
+    text-decoration: none;
+    background-color: var(--background-light-color);
+    filter: brightness(0.9);
+}
+
+.header__tagline {
+    font-family: "Shadows Into Light";
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--subtitle-text-color);
+}
+
+.header__title {
+    font-family: "Teko", sans-serif;
+    font-size: 62px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.header__description {
+    font-size: 19px;
+    margin-top: 10px;
+    color: var(--subtitle-text-color);
+}
+
+.header__promo-video {
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+
+.header__video {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16/9;
+    overflow: hidden;
+}
+
+.header__content {
+    position: absolute;
+    top: 10%;
+    color: var(--subtitle-text-color);
+    margin-left: 20px;
+}
+
+@media (min-width: 990px) {
+    .header__content {
+        position: absolute;
+        top: 50%;
+        display: flex;
+        flex-direction: column;
+        transform: translate(0, -50%);
+        align-items: center;
+        z-index: 1;
+        width: 100%;
+        color: var(--subtitle-text-color);
+        margin: 0;
+    }
+
+    .header__tagline {
+        font-size: 28px;
+    }
+
+    .header__title {
+        font-size: 128px;
+        transition: color 0.5s ease;
+    }
+
+    .header__title.animate {
+        color: var(--accent-text-dark-color);
+    }
+
+    .header__button.button {
+        max-width: 230px;
+    }
+
+    .header__video {
+        position: relative;
+        width: 100%;
+        height: 80vh;
+        overflow: hidden;
+    }
+}

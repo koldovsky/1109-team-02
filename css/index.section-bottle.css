@@ -1,6 +1,103 @@
-img {
-    width: 100%;
+.bottles-container {
+  padding: 90px 24px 65px;
 }
-.bottle__container {
-    text-align: center;
+.bottles__carousel {
+  margin-top: 50px;
+}
+.bottle__title {
+  text-align: center;
+  font-size: 0.875rem;
+}
+.bottle__tagline {
+  font-family: "Teko", sans-serif;
+  color: var(--subtitle-text-color);
+  font-size: 2.5rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+}
+.bottle__subtitle {
+  font-size: 1.1875rem;
+  font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+  color: var(--subtitle-light-color);
+  text-align: center;
+  margin-top: 25px;
+}
+section.bottles {
+  padding: 90px 0 65px 0;
+}
+.bottles__container {
+  align-items: center;
+  padding: 0 24px;
+}
+.bottles__carousel .carousel__slide {
+  display: flex;
+  flex-direction: column;
+  padding: 0 15px;
+  justify-content: flex-end;
+}
+.carousel__slide-description {
+  padding: 47px 27px;
+}
+.carousel__text {
+  font-size: 1.0625rem;
+  color: var(--subtitle-text-color);
+  font-weight: 400;
+}
+.carousel__image {
+  display: flex;
+  justify-content: center;
+}
+.carousel__image img {
+  width: 30%;
+}
+.carousel__title {
+  font-size: 2.875rem;
+  text-transform: uppercase;
+  font-family: "Teko", sans-serif;
+  color: var(--subtitle-text-color);
+}
+.bottle-carousel__button {
+  width: 50px;
+}
+@media (min-width: 768px) {
+  .bottles-container {
+    padding: 105px 32px 65px;
+  }
+  .carousel__slide-description {
+    padding: 58px 28px;
+  }
+  .bottles__carousel .carousel__slide {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .carousel__image img {
+    width: 100%;
+    height: fit-content;
+  }
+  .carousel__image {
+    align-items: center;
+  }
+  .bottle__tagline {
+    font-size: 3.1875rem;
+  }
+  .bottle__title {
+    font-size: 1.3125rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .bottles-container {
+    padding: 120px 32px 65px;
+  }
+  .carousel__slide-description {
+    padding: 80px 30px;
+  }
+  .bottle__title {
+    font-size: 1.75rem;
+  }
+  .bottle__tagline {
+    font-size: 3.875rem;
+  }
 }

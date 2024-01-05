@@ -1,0 +1,31 @@
+<div class="contact-wrapper row">
+    <div class="navigation-map col">
+        <iframe
+                class="map__iframe"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.173223834232!2d-73.98992862452296!3d40.73621373613381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a1de42d017%3A0xccecf651507e56ec!2zNTUgSXJ2aW5nIFBsLCBOZXcgWW9yaywgTlkgMTAwMDMsINCh0L_QvtC70YPRh9C10L3RliDQqNGC0LDRgtC4INCQ0LzQtdGA0LjQutC4!5e0!3m2!1suk!2sua!4v1701868286307!5m2!1suk!2sua"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+    </div>
+
+    <div class="form-background col">
+        <section class="reservation-form">
+            <form action="https://formspree.io/f/xleyqdqv" method="post" class="reservation-form__form">
+                <input type="text" name="name" placeholder="Name" required class="reservation-form__input"/>
+                <input type="tel" name="phone" placeholder="Phone number" pattern="[0-9]{10}" required
+                       class="reservation-form__input"/>
+                <input type="number" name="quantity" placeholder="Number of guests" min="1" max="20"
+                       class="reservation-form__input"/>
+                <input type="text" name="date" placeholder="Choose date" onfocus="this.type='date'"
+                       onblur="this.type='text'" min="2024-01-09" required
+                       class="reservation-form__input"/>
+                <input type="submit" value="Reserve" class="reservation-form__submit btn btn-warning"/>
+            </form>
+        </section>
+    </div>
+
+</div>

@@ -1,39 +1,185 @@
-h3 {
-    font-family: "Teko", sans-serif;
-    color: var(--subtitle-text-color);
-    font-size: 2.5rem;
-    font-weight: 400;
-    text-transform: uppercase;
+.bar_image {
+  margin-top: 50px;
+}
+.arrow-svg_1j4 {
+  fill: var(--subtitle-light-color);
+  border-radius: 50%;
+  background-color: var(--background-transparent-color);
+  width: 30px;
+  height: 30px;
+}
+.food-carousel__button-prev .arrow-svg_1j4 {
+  transform: rotate(180deg);
+}
+button.food-carousel__button-prev {
+  background-color: unset;
+  border-style: hidden;
+}
+button.food-carousel__button-next {
+  background-color: unset;
+  border-style: hidden;
+}
+
+.food__menu {
+  padding: 30px 0 90px 0;
+}
+.food__container {
+  padding: 0 24px;
+}
+.food__cards {
+  margin-top: 45px;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.food__card {
+  padding: 0 20px;
+}
+.card__info-container {
+  padding: 7.5px 0;
+}
+.card__info {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card__info-line {
+  display: flex;
+  background-color: var(--subtitle-light-color);
+  flex-grow: 1;
+  height: 0.5px;
+  opacity: 0.2;
+  margin: 25px 0 7px;
+}
+
+.food__info-title {
+  text-align: center;
+  font-size: 0.875rem;
+}
+.food__info-header {
+  font-family: "Teko", sans-serif;
+  color: var(--subtitle-text-color);
+  font-size: 2.5rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .food__info-description {
-    font-weight: 500;
-    font-family: "Open Sans", sans-serif;
-
-}   
-h4 {
-   font-family: "Teko", sans-serif;
-   font-size: 1.6rem;
-    font-weight: 400;
-    text-transform: uppercase;
-   color: var(--title-text-color);
+  font-size: 1.1875rem;
+  font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+  color: var(--subtitle-light-color);
+  text-align: center;
+  margin-top: 25px;
+}
+.food__cards .card__name {
+  margin-bottom: 20px;
+  font-family: "Teko", sans-serif;
+  font-size: 1.625rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: var(--title-text-color);
 }
 
-h5 {
-    font-family: "Teko", sans-serif;
-    color: var(--subtitle-text-color);
-    font-size: 1.6rem;
-    font-weight: 400;
-    color:
+.food__cards .card__info-name {
+  font-family: "Teko", sans-serif;
+  color: var(--subtitle-text-color);
+  font-size: 1.625rem;
+  font-weight: 400;
+  color: var(--subtitle-text-color);
+  display: flex;
+  line-height: 1;
+  margin-bottom: 0;
 }
-.card__info-price {
-    font-family: "Teko", sans-serif;
-   font-size: 1.6rem;
-    font-weight: 400;
-    text-transform: uppercase;
-    color: var(--title-text-color);
+
+.food__cards .card__info-price {
+  font-family: "Teko", sans-serif;
+  font-size: 1.625rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+  display: flex;
+  line-height: 1;
+  align-items: flex-end;
+  margin-bottom: 0;
 }
 .card__info-description {
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.0625rem;
+  color: var(--text-light-color);
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .food__cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .bar__menu {
+    padding: 105px 0 30px 0;
+  }
+  .food__container {
+    padding: 0 36px;
+  }
+  .food__info-title {
+    font-size: 1.3125rem;
+  }
+  .food__info-header {
+    font-size: 3.1875rem;
     font-weight: 400;
-    font-family: "Open Sans", sans-serif;
+  }
+
+  .food__card .card__name {
+    font-size: 2rem;
+    font-weight: 400;
+  }
+
+  .food__cards .card__info-name {
+    font-size: 2rem;
+    font-weight: 400;
+  }
+
+  .food__cards .card__info-price {
+    font-size: 2rem;
+    font-weight: 400;
+  }
+}
+
+@media (min-width: 992px) {
+  .bar_image {
+    margin-top: 55px;
+  }
+  .food__card {
+    padding: 0 30px;
+  }
+  .food__cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .food__menu {
+    padding: 120px 0 30px 0;
+  }
+  .food__container {
+    padding: 0 40px;
+  }
+  .food__info-title {
+    font-size: 1.75rem;
+  }
+  .food__info-header {
+    font-size: 3.875rem;
+  }
+
+  .food__card .card__name {
+    font-size: 2.375rem;
+  }
+
+  .food__cards .card__info-name {
+    font-size: 2.375rem;
+  }
+
+  .food__cards .card__info-price {
+    font-size: 2.375rem;
+  }
 }
