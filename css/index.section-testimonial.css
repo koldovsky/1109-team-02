@@ -7,12 +7,13 @@
 .testimonials {
   padding: 90px 0 65px;
 }
-.testimonials__conteiner {
+.testimonials__container {
   padding: 0 24px;
 }
 .testimonials__review-card {
   padding: 0 15px;
-  
+  display: flex;
+  margin-top: 50px;
 }
 
 .testimonials__header {
@@ -30,48 +31,50 @@
   font-size: 1.18rem;
   color: var(--subtitle-light-color);
 }
-
+.testimonials__review p {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
 .testimonials__review-photo {
   border-radius: 50%;
   width: 70px;
 }
-
 .testimonials__review-name {
   font-family: "Teko", sans-serif;
   font-size: 1.6rem;
   color: var(--subtitle-text-color);
 }
-
 .testimonials__review-text {
   font-family: "Open Sans", sans-serif;
   font-weight: 400px;
-  font-size: 1.06rem;
+  font-size: 1.0625rem;
   color: var(--text-light-color);
 }
 
 .testimonials__review-date {
   font-family: "Open Sans", sans-serif;
   font-weight: 700px;
-  font-size: 0.8rem;
+  font-size: 0.875rem;
   font-weight: bold;
   color: var(--title-text-color);
 }
-.testimonials__review-conteiner {
-  column-gap: 15px;
+.testimonials__review-container {
   display: inline;
 }
 
 .testimonials__review {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: -webkit-center;
-  margin-top: 50px;
   padding: 35px 29px;
   background-color: var(--background-transparent-color);
 }
 @media (min-width: 768px) {
   .testimonials__review {
-    padding: 40px;
+    padding: 40px 31px;
   }
-  .testimonials__review-conteiner {
+  .testimonials__review-container {
     display: flex;
     grid-template-columns: 1fr 1fr;
   }
@@ -81,8 +84,10 @@
   .testimonials {
     padding: 105px 0 65px;
   }
-
-  .testimonials__conteiner {
+  .testimonials__review-name {
+    font-size: 2rem;
+  }
+  .testimonials__container {
     padding: 0 40px;
   }
   .testimonials__text {
@@ -98,5 +103,10 @@
 
   .testimonials__video-card {
     padding: 0 40px;
+  }
+}
+@media (min-width: 992px) {
+  .testimonials__review-name {
+    font-size: 2.375rem;
   }
 }
