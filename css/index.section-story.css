@@ -4,18 +4,18 @@
         align-items: center;
         padding: 20px;
       }
-      .text-section {
+.text-section {
         width: 50%;
       }
-      .image-section {
+.image-section {
         width: 50%;
       }
-      h2 {
+  h2 {
           font-size: 2em;
-          color: #fff;.
+          color: #fff;
         }
-        p {
+   p {
           color: #aaa;
           line-height: 1.6;
         }
-}
+
