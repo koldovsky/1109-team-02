@@ -110,3 +110,6 @@
     font-size: 2.375rem;
   }
 }
+.testimonials__review:hover {
+  background-color: var(--discount-color);
+}
