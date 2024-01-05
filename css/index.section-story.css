@@ -1,5 +1,21 @@
 .story__container {
-    text-align: center;
-    height: auto;
-    margin: 0 auto;
+     display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+      }
+      .text-section {
+        width: 50%;
+      }
+      .image-section {
+        width: 50%;
+      }
+      h2 {
+          font-size: 2em;
+          color: #fff;
+        }
+        p {
+          color: #aaa;
+          line-height: 1.6;
+        }
 }
