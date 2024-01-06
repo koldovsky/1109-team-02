@@ -2,10 +2,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 40px;
+  padding: 50px;
   max-width: 1200px;
   margin: 0 auto;
   background: #000;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .story-content {
@@ -50,14 +52,15 @@
 }
 
 .story-image {
-  max-width: 100%;
+  max-width: auto;
   height: auto;
 }
 
 @media (max-width: 768px) {
   .story-container {
-    flex-direction: column;
-    text-align: center;
+    display: flex;
+        align-items: center;
+        justify-content: space-between;
   }
   .story-content,
   .story-image-container {
