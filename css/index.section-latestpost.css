@@ -1,6 +1,6 @@
 .latestpost {
-    color: var(--background-light-color);
     padding: 120px 0 65px;
+    flex-direction: column;
 }
 .latestpost__title {
     font-size: 28px;
@@ -26,7 +26,7 @@
     margin: 0;
 }
 .latestpost__general {
-    display: grid;
+    
     gap: 30px;
     padding: 40px;
 }
@@ -63,35 +63,4 @@
     background: url(../img/latestpost/three-people-are-sitting.webp);
     background-size: cover;
     background-position: center bottom;
-}
-.container {
-    margin: auto;
-    max-width: 1200px;
-}
-.latestpost-class-title {
-    font-size: 54px;
-    text-align: center;
-    font-family: "Teko", sans-serif;
-    color: var(--subtitle-text-color);
-    padding: 10px 0 0;
-}
-
-.latestpost-class-category {
-    font-size: 17px;
-    text-align: center;
-    font-family: "Open Sans", sans-serif;
-    color: var(--subtitle-text-color);
-    padding: 10px;
-    opacity: 0;
-    transition: opacity 0.5s ease;
-}
-
-.latestpost-class-description {
-    position: absolute;
-    bottom: 9px;
-    left: 30%;
-    font-family: "Open Sans", sans-serif;
-    font-size: 14px;
-    font-weight: 700;
-    color: var(--link-menu-text-color);
 }
