@@ -16,20 +16,8 @@
     font-size: 28px;
 }
 
-.container-images__image-fries{
-    background-image: url('../img/topchoice/fries.webp');
-}
-
-.container-images__image-beer{
-    background-image: url('../img/topchoice/handBeer.webp');
-}
-
-.container-images__image-hamburger{
-    background-image: url('../img/topchoice/hamburger.webp');
-}
-
-.container-images__image-people{
-    background-image: url('../img/topchoice/people.webp');
+.container-images {
+    cursor: pointer;
 }
 
 .topchoice__text {
@@ -135,6 +123,48 @@
     margin: auto 0 ;
     margin-top: 55px;
     text-transform: uppercase;
+    cursor: pointer;
+}
+
+.topchoice__menu-button:hover {
+    color: var(--background-light-color);
+    background-color: var(--paragraph-text-dark-color);
+    border: 1px solid var(--background-light-color);
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.topchoice__modal {
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#topchoice__closeBtn, #topchoice__zoomInBtn, #topchoice__zoomOutBtn{
+    background-color: transparent;
+    border: none;
+}
+
+#topchoice__modalImage {
+    width: 95%;
+    object-fit: contain;
+}
+
+.topchoice__icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 106px;
+    width: 100%;
 }
 
 @media (max-width: 990px) {

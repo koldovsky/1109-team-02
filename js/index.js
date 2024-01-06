@@ -6,4 +6,5 @@ document.addEventListener('partialsLoaded',
     import('./bottles.js');
     import('./offers.js');
     import('./testimonials.js');
+    import('./topchoice.js')
   });
