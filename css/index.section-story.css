@@ -7,19 +7,19 @@
   margin: 0 auto;
 }
 
-.story__heading {
+.story-heading {
   font-size: 48px;
   font-weight: bold;
   margin-bottom: 20px;
 }
 
-.story__text {
+.story-text {
   font-size: 18px;
   line-height: 1.6;
   margin-bottom: 30px;
 }
 
-.story__button {
+.story-button {
   background-color: #ffa500;
   color: #ffffff;
   padding: 15px 30px;
@@ -30,7 +30,7 @@
   transition: background-color 0.3s ease;
 }
 
-.story__button:hover {
+.story-button:hover {
   background-color: #cc8400;
 }
 
@@ -39,7 +39,7 @@
     flex-direction: column;
     text-align: center;
   }
-    .story__image {
+    .story-image {
     width: 100%;
     margin-top: 30px;
   }
