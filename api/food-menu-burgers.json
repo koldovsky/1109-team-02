@@ -1,0 +1,32 @@
+[
+   {
+       "id": "1",
+       "name": "CLASSIC BURGER",
+       "description": "Beef, tomato, pickle, lettuce, cucumber, cheddar cheese, bacon",
+       "price": "$14"
+   },
+   {
+       "id": "2",
+       "name": "BEEF KING",
+       "description": "Beef brisket, Swiss cheese, caramelised onions",
+       "price": "$18"
+   },
+   {
+       "id": "3",
+       "name": "DOUBLE CHEESEBURGER",
+       "description": "Double beef patties with cheese, tomato, topped with mozzarella",
+       "price": "$22"
+   },
+   {
+       "id": "4",
+       "name": "CHICKEN BURGER",
+       "description": "Chicken breast, soaked with hot sauce & blue cheese slaw",
+       "price": "$15"
+   },
+   {
+       "id": "5",
+       "name": "BOUTIQUE BURGER",
+       "description": "Maple bacon, tomato, red onions topped off with a fried egg",
+       "price": "$19"
+   }
+]

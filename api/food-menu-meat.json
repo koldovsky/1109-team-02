@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1",
+        "name": "SESAME CHICKEN STRIPS",
+        "description": "Chicken breasts in Jack Daniel's® glaze with toasted sesame seeds",
+        "price": "$13"
+    },
+    {
+        "id": "2",
+        "name": "HOT WINGS",
+        "description": "Served with barbecue sauce and coleslaw",
+        "price": "$15"
+    },
+    {
+        "id": "3",
+        "name": "LAMB GYRO",
+        "description": "Lamb, tzatziki sauce, tomato, cucumber & lettuce in pita bread",
+        "price": "$20"
+    },
+    {
+        "id": "4",
+        "name": "LAMB CHOPS",
+        "description": "Marinated herb roasted rack of lamb chops with balsamic sauce",
+        "price": "$22"
+    },
+    {
+        "id": "5",
+        "name": "PAN ROASTED PORK CHOP",
+        "description": "Served in a bourbon & honey glaze with berry sauce",
+        "price": "$23"
+    }
+]
