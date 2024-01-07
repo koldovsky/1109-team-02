@@ -57,7 +57,7 @@
 @media (min-width: 990px) {
     .header__content {
         position: absolute;
-        top: 50%;
+        top: 35%;
         display: flex;
         flex-direction: column;
         transform: translate(0, -50%);
