@@ -1,5 +1,5 @@
 .latestpost {
-    padding: 120px 0 65px;
+    padding: 0;
     flex-direction: column;
 }
 .latestpost__title {
@@ -48,21 +48,17 @@
     }
 }
 .latestpost-event-tasting {
-    background: url(../img/latestpost/bar-view.webp);
-    background-size: cover;
-    background-position: center;
-}
+    url(../img/latestpost/bar-view.webp);
+    }
 
 .latestpost-beer-blog {
-    background: url(../img/latestpost/the-waiter-pours-the-beer.webp);
-    background-size: cover;
-    background-position: center;
+    url(../img/latestpost/the-waiter-pours-the-beer.webp);
+    
 }
 
 .latestpost-irish-festival {
-    background: url(../img/latestpost/three-people-are-sitting.webp);
-    background-size: cover;
-    background-position: center bottom;
+    url(../img/latestpost/three-people-are-sitting.webp);
+    
 }
 .container {
     margin: auto;
