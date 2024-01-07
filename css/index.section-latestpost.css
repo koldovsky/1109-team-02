@@ -64,3 +64,80 @@
     background-size: cover;
     background-position: center bottom;
 }
+.container {
+    margin: auto;
+    max-width: 1200px;
+}
+.latestpost-event-title {
+   font-size: 28px;
+   text-align: center;
+   min-width: 370px;
+   margin: 0;
+}
+.latestpost-beer-title {
+    font-size: 54px;
+    text-align: center;
+    font-family: "Teko", sans-serif;
+    color: var(--subtitle-text-color);
+    padding: 10px 0 0;
+}
+.latestpost-festival-title {
+    font-size: 54px;
+    text-align: center;
+    font-family: "Teko", sans-serif;
+    color: var(--subtitle-text-color);
+    padding: 10px 0 0;
+}
+
+.latestpost-event-category {
+    font-size: 17px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    color: var(--subtitle-text-color);
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+.latestpost-beer-category {
+    font-size: 17px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    color: var(--subtitle-text-color);
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+.latestpost-festival-category {
+    font-size: 17px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    color: var(--subtitle-text-color);
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.latestpost-event-description {
+    position: absolute;
+    left: 30%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--link-menu-text-color);
+}
+.latestpost-beer-description {
+    position: absolute;
+    left: 30%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--link-menu-text-color);
+}
+.latestpost-festival-description {
+    position: absolute;
+    left: 30%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--link-menu-text-color);
+}
