@@ -23,12 +23,7 @@
   fill: var(--hover-button-color);
   background-color: transparent;
 }
-.button-next {
-  right: 10px;
-}
-.button-prev {
-  transform: rotate(180deg);
-}
+
 
 @media (min-width: 768px) {
   .food__card-container {
@@ -44,14 +39,15 @@
   }
 }
 
-.food-carousel__button-prev .arrow-svg_1j4 {
+.button-prev .arrow-svg_1j4 {
   transform: rotate(180deg);
+ 
 }
-button.food-carousel__button-prev {
+button.button-prev {
   background-color: unset;
   border-style: hidden;
 }
-button.food-carousel__button-next {
+button.button-next {
   background-color: unset;
   border-style: hidden;
 }
