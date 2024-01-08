@@ -2,6 +2,10 @@
   color: var(--link-menu-text-color);
   background-color: var(--background-transparent-color);
 }
+.bar__currency-container{
+  display: flex;
+  justify-content: center;
+}
 .menu__baner {
   background-image: url(../img/menu/bg_menu.webp);
   background-size: cover;

@@ -34,17 +34,18 @@ async function updateCrrency(){
         if (cachedCurrencies) {
             currencies = JSON.parse(cachedCurrencies);
         } else {
-            const response = await fetch('https://api.exchangerate-api.com/v4/latest/USD');
+            const response = await fetch('api/exchange.json');
             currencies = await response.json();
             
             localStorage.setItem('currencies', JSON.stringify(currencies));
         }
     }
+
     const currency = document.querySelector('.bar__currency').value;
     const rate = currencies.rates[currency];
     renderBeersInfo(beers, container, rate);
 }
-document.querySelector('.bar__currency').addEventListener('change', updateCrrency,setupCarousel);
+document.querySelector('.bar__currency').addEventListener('change', updateCrrency);
 };
 
 const productsBotteled = await fetch('api/bar-botteled.json');
@@ -61,8 +62,8 @@ const productsCocktails = await fetch('api/bar-cocktails.json');
 const cardContainerCocktails = document.querySelector('.card__cocktails-container');
 const beersCocktails = await productsCocktails.json();
 renderBeersInfo(beersCocktails, cardContainerCocktails);
-setupCarousel();
 
+setupCarousel()
 
 function getSlidesPerView() {
     if (window.innerWidth >= 768) return 2;
@@ -96,10 +97,12 @@ function cloneSlide(slide) {
 }
 
 function updateCarousel() {
+    
     carouselInner.style.transform = `translateX(-${currentIndex * 100 / slidesPerView}%)`;
 }
 
 // Event listeners
+
 prevButton.addEventListener('click', () => {
     if (--currentIndex < 0) {
         currentIndex = slides.length - slidesPerView * 2 - 1;
@@ -138,6 +141,4 @@ nextButton.addEventListener('click', () => {
 window.addEventListener('resize', () => {
     slidesPerView = getSlidesPerView();
     setupCarousel();
-    updateCrrency()
-   
 });
