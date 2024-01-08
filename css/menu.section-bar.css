@@ -1,3 +1,7 @@
+.bar__currency{
+  color: var(--link-menu-text-color);
+  background-color: var(--background-transparent-color);
+}
 .menu__baner {
   background-image: url(../img/menu/bg_menu.webp);
   background-size: cover;
@@ -33,6 +37,10 @@
   justify-content: space-between;
   align-items: flex-end;
   margin: 0;
+}
+button.card__info-name  {
+background-color: transparent;
+border-style: hidden;
 }
 .card__info-line {
   display: flex;

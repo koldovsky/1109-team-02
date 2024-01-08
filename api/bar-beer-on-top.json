@@ -1,27 +1,27 @@
 [
     {   "id": "2.1",
         "name": "BLUE STYLE",
-        "price": "$5",
+        "price": "5",
         "description": "Brewed with oats and spiced with orange peel"
     },
     { "id": "2.2",
         "name": "BOUTIQUE IPA",
-        "price": "$5",
+        "price": "5",
         "description": "Our best-selling draft beer with bitter taste"
     },
     {   "id": "2.3",
         "name": "ABSOLUTE PORTER",
-        "price": "$6",
+        "price": "6",
         "description": "Chocolate peanut butter porter with rich taste"
     },
     {"id": "2.4",
         "name": "BELGIAN DREAM",
-        "price": "$8",
+        "price": "8",
         "description": "A traditional Belgian-style wheat ale with whispers of orange"
     },
     {"id": "2.5",
         "name": "BEER BOUTIQUE LAGER",
-        "price": "$9",
+        "price": "9",
         "description": "Crisp, clean and slightly dry with some residual sweetness"
     }
 ]

@@ -7,15 +7,16 @@ let slidesPerView = getSlidesPerView();
 let slides = Array.from(carouselInner.children);
 let currentIndex = slidesPerView;
 
-const renderBeersInfo = (beers, container) => {
+
+const renderBeersInfo = (beers, container, rate = 1) => {
   let beersDomString = '';
   for (const beer of beers) {
       beersDomString += `
       <article class="card__info-container">      
           <div class="card__info">
-              <h5 class="card__info-name">${beer.name}</h5>
+              <button class="card__info-name">${beer.name}</button>
               <div class="card__info-line"></div>
-              <p class="card__info-price">${beer.price}</p>
+              <p class="card__info-price">${(beer.price * rate).toFixed(2)}</p>
           </div>
           <p class="card__info-description">
               ${beer.description}
@@ -23,6 +24,27 @@ const renderBeersInfo = (beers, container) => {
       </article>`;
   }
   container.innerHTML = beersDomString;
+
+  
+let currencies;
+async function updateCrrency(){
+    if (!currencies) {
+        const cachedCurrencies = localStorage.getItem('currencies');
+
+        if (cachedCurrencies) {
+            currencies = JSON.parse(cachedCurrencies);
+        } else {
+            const response = await fetch('https://api.exchangerate-api.com/v4/latest/USD');
+            currencies = await response.json();
+            
+            localStorage.setItem('currencies', JSON.stringify(currencies));
+        }
+    }
+    const currency = document.querySelector('.bar__currency').value;
+    const rate = currencies.rates[currency];
+    renderBeersInfo(beers, container, rate);
+}
+document.querySelector('.bar__currency').addEventListener('change', updateCrrency,setupCarousel);
 };
 
 const productsBotteled = await fetch('api/bar-botteled.json');
@@ -39,13 +61,14 @@ const productsCocktails = await fetch('api/bar-cocktails.json');
 const cardContainerCocktails = document.querySelector('.card__cocktails-container');
 const beersCocktails = await productsCocktails.json();
 renderBeersInfo(beersCocktails, cardContainerCocktails);
-
 setupCarousel();
+
 
 function getSlidesPerView() {
     if (window.innerWidth >= 768) return 2;
     return 1;
 }
+
 
 function setupCarousel() {
     // Remove clones if they exist
@@ -60,8 +83,10 @@ function setupCarousel() {
 
     // Update slides
     slides = Array.from(carouselInner.children);
-
+    
     updateCarousel();
+    
+    
 }
 
 function cloneSlide(slide) {
@@ -88,6 +113,8 @@ prevButton.addEventListener('click', () => {
         });
     }
     updateCarousel();
+    
+    
 });
 
 nextButton.addEventListener('click', () => {
@@ -104,9 +131,13 @@ nextButton.addEventListener('click', () => {
         });
     }
     updateCarousel();
+    
+   
 });
 
 window.addEventListener('resize', () => {
     slidesPerView = getSlidesPerView();
     setupCarousel();
+    updateCrrency()
+   
 });
