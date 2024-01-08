@@ -1,6 +1,5 @@
 @import url(globals.css);
+@import url(about-us.css);
 @import url(header.css);
 @import url(footer.css);
 @import url(about.section-about-beer.css);
-@import url(about.section-beer-boutique.css);
-@import url(about-us.css);

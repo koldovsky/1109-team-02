@@ -4,8 +4,7 @@
     flex-direction: column;
     align-items: center;
 }
-
-.topchoice__container-images div {
+.topchoice__container-images div{
     max-width: 270px;
     width: 100%;
     height: 263px;
@@ -17,8 +16,20 @@
     font-size: 28px;
 }
 
-.topchoice__container-images div {
-    cursor: pointer;
+.container-images__image-fries{
+    background-image: url('../img/topchoice/fries.webp');
+}
+
+.container-images__image-beer{
+    background-image: url('../img/topchoice/handBeer.webp');
+}
+
+.container-images__image-hamburger{
+    background-image: url('../img/topchoice/hamburger.webp');
+}
+
+.container-images__image-people{
+    background-image: url('../img/topchoice/people.webp');
 }
 
 .topchoice__text {
@@ -54,11 +65,11 @@
 .topchoice__container-images {
     display: flex;
     max-width: 1170px;
-    width: 100%;
+    width:100%;
     gap: 30px;
 }
 
-.top__title {
+.top__title{
     color: var(--subtitle-text-color);
     font-size: 38px;
     text-align: center;
@@ -100,7 +111,7 @@
     margin: 0;
 }
 
-.top__line {
+.top__line{
     height: 20px;
     flex-grow: 1;
     border-bottom: 1px solid var(--text-light-color);
@@ -121,61 +132,9 @@
     font-weight: 700;
     font-size: 12px;
     padding: 21px 40px;
-    margin: auto 0;
+    margin: auto 0 ;
     margin-top: 55px;
     text-transform: uppercase;
-    cursor: pointer;
-}
-
-.topchoice__menu-button:hover {
-    color: var(--background-light-color);
-    background-color: var(--paragraph-text-dark-color);
-    border: 1px solid var(--background-light-color);
-}
-
-.overlay {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
-    justify-content: center;
-    align-items: center;
-}
-
-.topchoice__modal {
-    max-width: 100%;
-    height: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-#topchoice__closeBtn,
-#topchoice__zoomInBtn,
-#topchoice__zoomOutBtn {
-    background-color: transparent;
-    border: none;
-}
-
-#topchoice__modalImage {
-    width: 73%;
-    object-fit: contain;
-    margin-top: 30px;
-}
-
-.topchoice__icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    max-width: 106px;
-    width: 100%;
-    margin-left: 65%;
-    z-index: 1;
 }
 
 @media (max-width: 990px) {
@@ -187,12 +146,11 @@
         font-size: 52px;
     }
 
-    .top__title,
-    .top__price {
+    .top__title, .top__price  {
         font-size: 32px;
     }
 
-    .topchoice__container-images {
+    .topchoice__container-images{
         flex-wrap: wrap;
     }
 

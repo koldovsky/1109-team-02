@@ -1,151 +1,29 @@
+
 .latestpost {
-    padding: 0;
-    margin-left: 132px;
-    margin-right: 132px;
+    margin-bottom: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
 }
 .latestpost__title {
     font-size: 28px;
-    text-align: center;
-    min-width: 370px;
-    margin: 0;
+    
 }
+
 .latestpost__category {
+    color: var(--subtitle-text-color);
     font-size: 62px;
     text-align: center;
     font-family: "Teko", sans-serif;
-    color: var(--subtitle-text-color);
-    min-width: 370px;
     margin: 0;
 }
-.latestpost__description{
+
+.latestpost__description {
     font-size: 19px;
+    margin: 0;
     text-align: center;
     font-family: "Open Sans", sans-serif;
     font-weight: 500;
-    color: var(--text-light-color);
-    min-width: 370px;
-    margin: 0;
-}
-.latestpost__general {
-    padding: 32px;
-    display: grid;
-    justify-content: space-around;
-    margin-top: 30px;
-}
-@media (min-width: 767px ) {
-   
-    .latestpost__general {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: 15px;
-        padding: 15px;
-
-    }
-}
-.latestpost-event-tasting {
-    padding: 15px;
-    flex-direction: row
-    
-}
-.latestpost-beer-blog {
-    padding: 15px;
-    flex-direction: row
-    
-}
-.latestpost-irish-festival {
-    padding: 15px;
-    flex-direction: row
-    
-}
-.latestpost-event-title {
-    font-size: 14px;
-    text-align: left;
-    min-width: 370px;
-    margin-top: 20px;
-    color: #ffc123;
-    font-family: "Open Sans", sans-serif;
-}
-.latestpost-beer-title {
-    font-size: 14px;
-    text-align: left;
-    min-width: 370px;
-    margin-top: 20px;
-    color: #ffc123;
-    font-family: "Open Sans", sans-serif;
-}
-.latestpost-festival-title {
-    font-size: 14px;
-    text-align: left;
-    min-width: 370px;
-    margin-top: 20px;
-    color: #ffc123;
-    font-family: "Open Sans", sans-serif;
-}
-.latestpost-event-category {
-    font-size: 35px;
-    text-align: left;
-    font-family: "Teko", sans-serif;
-    color: var(--subtitle-text-color);
-    min-width: 370px;
-    margin-top: 20px;
-}
-.latestpost-beer-category {
-    font-size: 35px;
-    text-align: left;
-    font-family: "Teko", sans-serif;
-    color: var(--subtitle-text-color);
-    min-width: 370px;
-    margin-top: 20px;
-}
-.latestpost-festival-category {
-    font-size: 35px;
-    text-align: left;
-    font-family: "Teko", sans-serif;
-    color: var(--subtitle-text-color);
-    min-width: 370px;
-    margin-top: 20px;
-}
-.latestpost-event-description {
-    font-size: 15px;
-    text-align: left;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 500;
     color: var(--subtitle-light-color);
-    min-width: 370px;
-    margin: 0;
-}
-.latestpost-beer-description {
-    font-size: 15px;
-    text-align: left;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 500;
-    color: var(--subtitle-light-color);
-    min-width: 370px;
-    margin: 0;
-}
-.latestpost-festival-description {
-    font-size: 15px;
-    text-align: left;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 500;
-    color: var(--subtitle-light-color);
-    min-width: 370px;
-    margin: 0;
-}
-.link {
-    font-size: 12px;
-    font-weight: bold;
-    margin-top: 40px;
-    color: var(--accent-text-light-color);
-    font-family: "Open Sans", sans-serif;
-    display: inline-block;
-    justify-content: flex-start;
-    padding: 18px 43px;   
-    background-color: var(--backround-footer-button-color);
-    text-decoration: none;
-    border: 1px solid var(--subtitle-light-color);
-}
-.link:hover {
-    background-color:  white;
-    color: black;
 }

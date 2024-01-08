@@ -1,8 +1,56 @@
-
 const slides = [ `<div class="food__card card__container">
 <h4 class="card__name">Snacks</h4>
-<div class="card__snacks-container"></div>
-`,
+<article class="card__info-container">
+  <div class="card__info">
+    <h5 class="card__info-name">SPICY NACHOS</h5>
+    <div class="card__info-line"></div>
+    <p class="card__info-price">$15</p>
+  </div>
+  <p class="card__info-description">
+    Cheddar cheese, jalapenos, queso fresco, sour cream, salsa
+  </p>
+</article>
+<article class="card__info-container">
+  <div class="card__info">
+    <h5 class="card__info-name">FISH & CHIPS</h5>
+    <div class="card__info-line"></div>
+    <p class="card__info-price">$12</p>
+  </div>
+  <p class="card__info-description">
+    Ale battered cod, coleslaw, French fries, and tartar sauce
+  </p>
+</article>
+<article class="card__info-container">
+  <div class="card__info">
+    <h5 class="card__info-name">FRIED CALAMARY</h5>
+    <div class="card__info-line"></div>
+    <p class="card__info-price">$12</p>
+  </div>
+  <p class="card__info-description">
+    Fried calamari served with spicy tartar sauce and dill aioli
+  </p>
+</article>
+<article class="card__info-container">
+  <div class="card__info">
+    <h5 class="card__info-name">CHICKEN WRAP</h5>
+    <div class="card__info-line"></div>
+    <p class="card__info-price">$18</p>
+  </div>
+  <p class="card__info-description">
+    Grilled chicken, bacon, tomato, cucumber, avocado, village sauce
+  </p>
+</article>
+<article class="card__info-container">
+  <div class="card__info">
+    <h5 class="card__info-name">MAC & CHEESE BITES</h5>
+    <div class="card__info-line"></div>
+    <p class="card__info-price">$10</p>
+  </div>
+  <p class="card__info-description">
+    With maple bacon and cheese sauce
+  </p>
+</article>
+</div>`,
 `<div class="food__card card__container">
 <h4 class="card__name">burgers</h4>
 <article class="card__info-container">
@@ -133,7 +181,6 @@ function prevSlide() {
 }
 renderSlide();
 
-
 //setInterval(nextSlide, 3000);
 
 const buttonNext = document.querySelector('.food-carousel__button-next');
@@ -142,4 +189,3 @@ buttonNext.addEventListener('click', nextSlide);
 const buttonPrev = document.querySelector('.food-carousel__button-prev');
 buttonPrev.addEventListener('click', prevSlide);
 window.addEventListener('resize', renderSlide);
-
