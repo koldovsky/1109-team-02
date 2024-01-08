@@ -7,4 +7,5 @@ document.addEventListener('partialsLoaded',
     import('./offers.js');
     import('./testimonials.js');
     import('./topchoice.js')
+    import('./button-story.js')
   });
