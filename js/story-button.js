@@ -1,11 +1,11 @@
-document.addEventListener('DOMContentLoaded', function() {
-  var storyButton = document.querySelector('.story-button');
+document.addEventListener('DOMContentLoaded', () => {
+  const button = document.querySelector('.story-button');
 
-  storyButton.addEventListener('mouseover', function() {
-    this.style.backgroundColor = '#cc8400';
+  button.addEventListener('mouseover', () => {
+    button.style.backgroundColor = '#cc8400';
   });
 
-  storyButton.addEventListener('mouseout', function() {
-    this.style.backgroundColor = '#ffa500';
+  button.addEventListener('mouseout', () => {
+    button.style.backgroundColor = '#ffa500';
   });
 });
