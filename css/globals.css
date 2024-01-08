@@ -24,6 +24,8 @@
     --link-menu-text-color: #ffc962;
     scroll-behavior: smooth;
     --backround-footer-button-color: #151212;
+    --overlay-bg-color: rgba(242, 244, 247, 0.5);
+    --box-shadow: 0 1px 20px 0 rgba(100,110,130,0.3);
 }
 
 img {

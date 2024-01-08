@@ -1,5 +1,5 @@
 <nav class="footer__nav">
-    <div class="footer__container">
+    <div class="footer__container container">
         <div class="footer__column column1">
             <a href="index.html">
                 <img width="180" class="footer__logo-image" src="img/header/beer-logo.svg" alt="Beer Logo">
@@ -124,8 +124,9 @@
             <h2 class="footer__column-title">SUBSCRIBE</h2>
             <form class="subscribe-form">
                 <div class="subscribe-form__group">
-                    <input type="email" class="subscribe-form__input" placeholder="Email*" required>
-                    <button type="submit" class="subscribe-form__button">SUBSCRIBE</button>
+                    <input id="emailInput" type="email" class="subscribe-form__input" placeholder="Email*" required>
+                    <button id="subscribeBtn" type="button" class="subscribe-form__button"
+                        onclick="subscribe()">SUBSCRIBE</button>
                 </div>
             </form>
         </div>
