@@ -10,8 +10,8 @@
 }
 
 .story-content {
-  width: calc(50% - 40px);
-  padding: 20px;
+  width: calc(90% - 40px);
+  padding: 54px;
 }
 
 .story-heading {
