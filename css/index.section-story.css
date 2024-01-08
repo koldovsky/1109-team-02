@@ -65,7 +65,7 @@
   }
 
   .story-button {
-    transition: background-color 0.3s ease;
+    transition: background-color 0.7s ease;
     display: block;
     margin: 20px auto;
   }
