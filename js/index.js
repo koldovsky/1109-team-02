@@ -8,4 +8,5 @@ document.addEventListener('partialsLoaded',
     import('./testimonials.js');
     import('./topchoice.js');
     import('./modal.js');
+    import('.story-button')
   });
