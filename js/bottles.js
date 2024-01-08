@@ -19,8 +19,8 @@ function setupCarousel() {
     slides = slides.filter(slide => !slide.classList.contains('clone'));
 
     // Add clones at start and end for infinite looping
-    const clonesStart = slides.slice(-slidesPerView).map(cloneSlide);
-    const clonesEnd = slides.slice(0, slidesPerView).map(cloneSlide);
+    const clonesStart = slides.slice(-slidesPerView*2).map(cloneSlide);
+    const clonesEnd = slides.slice(0, slidesPerView*2).map(cloneSlide);
 
     // Add all slides to the carousel
     carouselInner.append(...clonesStart, ...slides, ...clonesEnd);

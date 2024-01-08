@@ -78,7 +78,9 @@
   line-height: 1;
   margin-bottom: 0;
 }
-
+.card__info-name:hover {
+color: var(--title-text-color);
+}
 .food__cards .card__info-price {
   font-family: "Teko", sans-serif;
   font-size: 1.625rem;
