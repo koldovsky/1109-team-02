@@ -1,25 +1,11 @@
-.bar_image {
-  margin-top: 50px;
-}
-.arrow-svg_1j4 {
-  fill: var(--subtitle-light-color);
-  border-radius: 50%;
+.food__currency{
+  color: var(--link-menu-text-color);
   background-color: var(--background-transparent-color);
-  width: 30px;
-  height: 30px;
 }
-.food-carousel__button-prev .arrow-svg_1j4 {
-  transform: rotate(180deg);
+.food__currency-container{
+  display: flex;
+  justify-content: center;
 }
-button.food-carousel__button-prev {
-  background-color: unset;
-  border-style: hidden;
-}
-button.food-carousel__button-next {
-  background-color: unset;
-  border-style: hidden;
-}
-
 .food__menu {
   padding: 30px 0 90px 0;
 }
@@ -31,7 +17,7 @@ button.food-carousel__button-next {
   display: grid;
   grid-template-columns: 1fr;
 }
-.food__card {
+.food__card-container {
   padding: 0 20px;
 }
 .card__info-container {
@@ -120,7 +106,7 @@ button.food-carousel__button-next {
   .bar__menu {
     padding: 105px 0 30px 0;
   }
-  .food__container {
+  .food__card-container {
     padding: 0 36px;
   }
   .food__info-title {

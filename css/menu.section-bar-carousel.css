@@ -28,6 +28,13 @@
 .button-prev {
   transform: rotate(180deg);
 }
+.arrow-svg_1j4 {
+  fill: var(--subtitle-light-color);
+  border-radius: 50%;
+  background-color: var(--background-transparent-color);
+  width: 30px;
+  height: 30px;
+}
 
 @media (min-width: 768px) {
   .bar__card-container {

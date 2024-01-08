@@ -2,7 +2,9 @@
     padding: 0;
     margin-left: 132px;
     margin-right: 132px;
-    display: inline;
+}
+.latestpost__general__up {
+    width: 100%;
 }
 .latestpost__title {
     font-size: 28px;

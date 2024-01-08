@@ -1,4 +1,4 @@
-const response = await fetch('api/food-menu-snacks.json');
+/*const response = await fetch('api/food-menu-snacks.json');
 const snacks = await response.json()
 
 function renderFoodCardSnacks(snacks) {
@@ -18,7 +18,7 @@ function renderFoodCardSnacks(snacks) {
     const snacksContainer = document.querySelector('.card__snacks-container');
     snacksContainer.innerHTML = snacksDomString;
 }
-renderFoodCardSnacks(snacks);
+renderFoodCardSnacks(snacks);*/
 
 
 
