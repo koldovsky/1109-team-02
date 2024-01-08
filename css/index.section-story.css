@@ -11,11 +11,11 @@
 
 .story-content {
   flex: 1;
-  padding-right: 30px;
+  padding-right: 20px;
 }
 
 .story-heading {
-  font-size: 2.5rem;
+  font-size: 2.0rem;
   color: #fff;
   margin-bottom: 0.5em;
 }
@@ -58,14 +58,13 @@
 @media (max-width: 768px) {
   .story-container {
     display: flex;
-    flex-direction: column;
-        padding: 60px
         align-items: center;
         justify-content: space-between;
   }
   .story-content,
   .story-image-container {
-     width: 100%;
+    padding: 0;
+    width: 100%;
   }
     .story-button {
     display: inline-block;
