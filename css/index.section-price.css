@@ -1,5 +1,7 @@
 .container.special-offers__container {
   display: flex;
+  min-height: 85vh;
+  height: 100%;
 }
 
 .special-offers {
@@ -24,32 +26,43 @@
 }
 
 .special-offers__images {
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
+  margin: 20px;
 }
 
 .special-offers__menu {
-  display: block;
+  display: flex;
   opacity: 1;
   flex-direction: column;
   background: rgba(17, 17, 17, 0.76);
   justify-content: center;
-  height: 100%;
-  padding: 20px 10px 20px 10px;
+  padding: 40px;
   margin: auto 0;
+  width: 50%;
 }
 
 .special-offers__title,
 .special-offers__info {
   text-align: center;
+  font-size: 28px;
+  line-height: 36px;
+}
+
+.special-offers__info{
+  font-family: 'Teko', sans-serif;
+  font-size: 62px;
+  line-height: 82px;
+  font-weight: 400;
+  color: white;
 }
 
 .special-offers__beer-snacks {
   box-sizing: border-box;
   font-size: 17px;
   font-weight: 400;
-  justify-content: space-between;
+  margin: 10px;
 }
 
 .special-offers__beer,
@@ -59,5 +72,44 @@
 
 .divider {
   flex: 1;
-  border-bottom: 1px dotted white;
+  border-bottom: 1px solid #FFFFFF7F;
+  margin-bottom: 6px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.special-offers__product-name,
+.special-offers__price{
+  font-size: 38px;
+  line-height: 38px;
+  font-weight: 400;
+  color: white;
+  text-align: end;
+  padding: 0;
+  margin: 0;
+  font-family: 'Teko', sans-serif;
+}
+
+.special-offers__beer-snacks-name,
+.special-offers__beer-snacks-price{
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.special-offers__price{
+  color: #FFC123FF;
+}
+
+@media (max-width: 1048px) {
+  .container.special-offers__container {
+    display: block;
+    padding: 20px;
+  }
+  .special-offers__menu{
+    width: auto;
+  }
+  .special-offers__image{
+    width: 50%;
+  }
 }
