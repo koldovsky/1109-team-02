@@ -44,10 +44,6 @@
   background-color: #cc8400;
 }
 
-.story-image-container {
-  width: calc(50% - 40px);
-}
-
 .story-image {
   width: 100%;
   height: auto;
