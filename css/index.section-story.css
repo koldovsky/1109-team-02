@@ -9,11 +9,6 @@
   background: #000;
 }
 
-.story-content {
-  width: calc(50% - 40px);
-  padding: 20px;
-}
-
 .story-heading {
   font-size: 2.5rem;
     color: #ffa500;
