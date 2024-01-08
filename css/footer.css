@@ -217,7 +217,7 @@
     .footer__container {
         display: grid;
         grid-template-columns: 2fr 1fr 2fr 1fr;
-        grid-column-gap: 30px;
+        grid-column-gap: 40px;
         align-items: flex-start;
         padding-left: 60px;
         padding-right: 60px;
