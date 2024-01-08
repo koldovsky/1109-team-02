@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px;
+  padding: 60px;
   max-width: 1200px;
   margin: 0 auto;
   background: #000;
@@ -58,8 +58,6 @@
 @media (max-width: 768px) {
   .story-container {
     display: flex;
-    flex-direction: column;
-    padding: 20px;
         align-items: center;
         justify-content: space-between;
   }
