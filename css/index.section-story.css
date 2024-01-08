@@ -58,13 +58,14 @@
 @media (max-width: 768px) {
   .story-container {
     display: flex;
+    flex-direction: column;
+        padding: 60px
         align-items: center;
         justify-content: space-between;
   }
   .story-content,
   .story-image-container {
-    padding: 0;
-    width: 100%;
+     width: 100%;
   }
     .story-button {
     display: inline-block;
