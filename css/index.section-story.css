@@ -16,7 +16,7 @@
 
 .story-heading {
   font-size: 2.5rem;
-  color: #fff;
+  color: #ffa500;
 }
 
 .story-subheading {
@@ -29,6 +29,7 @@
   color: #aaa;
   line-height: 1.6;
   margin-bottom: 1em;
+  text-indent: 20px;
 }
 
 .story-button {
