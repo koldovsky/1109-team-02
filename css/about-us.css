@@ -1,16 +1,140 @@
-.team {
-  justify-content: center;
-  text-align: center;
-  /*display: flex; -тимчасово закрили щоб завершити свої блоки.*/
+.team-members-container {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .team-member__image {
-  height: 100px;
-  width: 100px;
+    object-fit: cover;
+    object-position: 75% 50%;
+    height: 440px;
 }
+
 
 .team-member {
-  height: 300px;
-  width: 300px;
+    text-align: center;
+    margin: 20px;
+    max-width: 360px;
+    max-height: 600px;
 }
 
+.team__title, .team__subtitle, .team__description {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.team__title {
+    font-size: 28px;
+}
+
+.team__subtitle {
+    font-family: 'Teko', sans-serif;
+    font-size: 62px;
+    line-height: 82px;
+    font-weight: 400;
+    color: white;
+}
+
+.team__description {
+    font-size: 19px;
+}
+
+.team-member__name {
+    font-family: 'Teko', sans-serif;
+}
+
+.team-member__name {
+    font-size: 38px;
+    line-height: 44px;
+    font-weight: 400;
+    color: white;
+}
+
+.team-member__position {
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 600;
+    color: #FFC123FF;
+}
+
+
+@media (max-width: 800px) {
+    .team-member__image {
+        height: auto;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .team-member {
+        text-align: center;
+        margin: 20px;
+        max-width: max-content;
+        max-height: max-content;
+    }
+
+    .team__title {
+        font-size: 14px;
+    }
+
+    .team__subtitle {
+        font-family: 'Teko', sans-serif;
+        font-size: 40px;
+        line-height: 52px;
+        font-weight: 400;
+        color: white;
+    }
+
+    .team__description {
+        font-size: 19px;
+    }
+
+    .team-member__name {
+        font-family: 'Teko', sans-serif;
+        margin-bottom: 20px;
+    }
+
+    .team-member__position {
+        margin-bottom: 20px;
+    }
+}
+
+.team-hiring {
+    background-color: #FFC123;
+    background-image: url(/img/about/join_us_banner.svg);
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-attachment: local;
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 1160px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+.team-hiring__title {
+    font-size: 48px;
+    color: black;
+}
+
+.team-hiring__link_container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-decoration: underline;
+}
+
+.team-hiring__link {
+    color: black;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+}
+
+.team-hiring__description {
+    color: black;
+
+}
