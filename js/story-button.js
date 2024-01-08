@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+
   const button = document.querySelector('.story-button');
 
   button.addEventListener('mouseover', () => {
@@ -8,4 +8,3 @@ document.addEventListener('DOMContentLoaded', () => {
   button.addEventListener('mouseout', () => {
     button.style.backgroundColor = '#ffa500';
   });
-});
